@@ -1,0 +1,3893 @@
+[
+  {
+    "weapon": {
+      "name": "HS.22",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "60 m",
+          "velocidad_salida": "410 m/s",
+          "daño": "29 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "600 bpm",
+          "tiempo_recarga": "1.37 s"
+        },
+        "control": {
+          "estabilidad_al_apuntar": "13 cm",
+          "retroceso_horizontal": "5 cm",
+          "retroceso_vertical": "6 cm",
+          "precision_dispersion": "30 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "143 ms",
+          "velocidad_equipado": "595 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_al_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "13 m",
+          "zoom": "x1",
+          "capacidad_cargador": "10 balas"
+        }
+      },
+      "pros": [
+        "Semiautomática silenciada",
+        "Fácil de controlar"
+      ],
+      "contras": [
+        "Daño muy bajo"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "La munición perforante del HS.22 mantiene todas sus estadísticas originales sin modificaciones, asegurando su estabilidad y control característicos. Su principal ventaja es la capacidad de penetrar materiales resistentes como piedra y metal, lo que la hace útil para disparos a través de coberturas. Sin embargo, no introduce cambios en la potencia, velocidad de salida o precisión, manteniendo su desempeño base sin mejoras significativas.",
+        "resumen": "La munición perforante del HS.22 conserva sus estadísticas originales y permite perforar superficies resistentes sin alterar su rendimiento general.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-82 m/s",
+            "daño": "+17 PS"
+          }
+        },
+        "descripcion_tecnica": "La munición de Punta Blanda para la HS.22 mejora el daño en 17 PS, aumentando su letalidad en combates cercanos. Sin embargo, la velocidad de salida disminuye en 82 m/s, lo que puede afectar la trayectoria del proyectil y dificultar el alcance de objetivos a mayores distancias. Es una opción eficaz para eliminar enemigos sin casco o protección adicional, pero su menor velocidad requiere ajustes en la puntería.",
+        "resumen": "La munición de Punta Blanda potencia el daño de la HS.22, pero su menor velocidad afecta la trayectoria del disparo, limitando su efectividad en combate a larga distancia.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+24 m",
+            "velocidad_salida": "+164 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+1 m"
+          }
+        },
+        "descripcion_tecnica": "La Munición de Competición para la HS.22 mejora el alcance efectivo en 24 metros y aumenta la velocidad de salida en 164 m/s, reduciendo significativamente la caída del proyectil y mejorando la precisión a larga distancia. Sin embargo, su distancia de audición aumenta ligeramente en 1 metro, lo que la hace marginalmente más ruidosa. Es una excelente opción para enfrentamientos en los que la velocidad y la precisión del disparo sean prioritarias.",
+        "resumen": "La Munición de Competición amplía el alcance y velocidad de disparo de la HS.22, mejorando su precisión, pero con un leve aumento en el ruido del disparo.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-123 m/s",
+            "daño": "-9 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-5 m"
+          }
+        },
+        "descripcion_tecnica": "La Munición Subsónica reduce la velocidad de salida en 123 m/s y disminuye el daño en 9 PS, afectando la letalidad del arma en combate. Su principal ventaja es la reducción de la distancia de audición en 5 metros, permitiendo disparos más discretos. Sin embargo, la menor velocidad de proyectil puede afectar la precisión a larga distancia y requiere ajustes en la puntería para compensar su trayectoria. Es una opción adecuada para situaciones sigilosas, pero menos efectiva en enfrentamientos directos.",
+        "resumen": "La Munición Subsónica reduce el ruido del disparo y mejora el sigilo, pero disminuye la potencia y requiere compensación en la puntería para mantener precisión.",
+        "pros": [],
+        "contras": []
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Cañón",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El Cañón Estándar de la HS.22 mantiene todas sus estadísticas sin modificaciones, conservando el equilibrio original del arma. No ofrece ventajas adicionales en potencia, precisión o control, lo que lo hace una opción confiable para quienes buscan estabilidad sin cambios. Su desempeño es predecible y adecuado para todo tipo de situaciones de combate, aunque no sobresale en aspectos como reducción de retroceso o aumento de daño.",
+        "resumen": "El Cañón Estándar mantiene el rendimiento original de la HS.22 sin modificaciones, ofreciendo estabilidad sin ventajas adicionales.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Carabina recortada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-170 m/s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-24 ms",
+            "velocidad_equipado": "-99 ms",
+            "velocidad_sprintar": "+12%",
+            "velocidad_al_apuntar": "+29%"
+          }
+        },
+        "descripcion_tecnica": "El Cañón Carabina Recortada optimiza la movilidad del arma, aumentando la velocidad al esprintar en un 12% y la velocidad al apuntar en un 29%, lo que la convierte en una excelente opción para jugadores que buscan rapidez en combate. Sin embargo, la velocidad de salida del proyectil se reduce en 170 m/s, aumentando significativamente la caída de bala y requiriendo ajustes en la puntería para compensarlo. La estabilidad al apuntar se ve afectada con una reducción de 4 cm, y la velocidad de apuntado y equipado también sufren disminuciones, con -24 ms y -99 ms respectivamente. Es una modificación ideal para enfrentamientos ágiles y dinámicos, aunque su impacto en la trayectoria del proyectil puede ser un desafío en tiros a distancia.",
+        "resumen": "El Cañón Carabina Recortada mejora notablemente la movilidad y velocidad de reacción, pero su reducción en la velocidad de salida aumenta la caída de proyectiles, lo que afecta la precisión a larga distancia.",
+        "pros": [
+          "Gran velocidad de movimiento, mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Aumenta notablemente la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Cañón de carabina extendido",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+80 m/s",
+            "daño": "+10 PS"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "+5 cm",
+            "retroceso_horizontal": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+16 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-29%"
+          }
+        },
+        "descripcion_tecnica": "El Cañón de Carabina Extendido mejora el daño en 10 PS y la velocidad de salida en 80 m/s, lo que reduce la caída de proyectiles y mejora la precisión en enfrentamientos a mayor distancia. Además, aporta estabilidad al apuntar con un aumento de 5 cm, facilitando disparos controlados. Sin embargo, el retroceso horizontal sube en 2 cm, lo que puede afectar la precisión en tiros consecutivos. En movilidad, ralentiza la velocidad al esprintar en un 8% y la velocidad al apuntar en un 29%, reduciendo significativamente la rapidez de reacción. Es una excelente opción para jugadores que priorizan daño y precisión sobre movilidad rápida.",
+        "resumen": "El Cañón de Carabina Extendido potencia el daño y precisión del disparo, pero sacrifica velocidad de movimiento y rapidez de apuntado, haciéndolo menos efectivo en situaciones de combate dinámico.",
+        "pros": [
+          "Aumenta el daño, reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El Cargador Estándar de la HS.22 mantiene todas sus estadísticas sin modificaciones, proporcionando un equilibrio entre capacidad y velocidad de recarga. No ofrece ventajas adicionales en términos de munición extra o tiempos de recarga más rápidos, pero garantiza la estabilidad y confiabilidad en combate sin afectar la movilidad o el desempeño del arma.",
+        "resumen": "El Cargador Estándar preserva el rendimiento original de la HS.22 sin alteraciones, manteniendo un equilibrio entre capacidad y recarga sin afectar el control del arma.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador ampliado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.15 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "+3 cm",
+            "retroceso_vertical": "+1 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms",
+            "velocidad_equipado": "+31 ms"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+2 balas"
+          }
+        },
+        "descripcion_tecnica": "El Cargador Ampliado aumenta la capacidad del cargador en 2 balas, permitiendo disparar más rondas antes de recargar. Sin embargo, esto conlleva un ligero aumento en el tiempo de recarga (+0.15 s). Su impacto en el control del arma es positivo, mejorando la estabilidad al apuntar en 3 cm y reduciendo el retroceso vertical en 1 cm, facilitando disparos consecutivos más precisos. Por otro lado, afecta la movilidad, aumentando la velocidad de apuntado en 12 ms y la velocidad de equipado en 31 ms, lo que puede ralentizar la respuesta en combate. Es ideal para jugadores que prefieren una mayor capacidad de fuego a cambio de una pequeña reducción en la rapidez de uso.",
+        "resumen": "El Cargador Ampliado mejora la capacidad de munición y la estabilidad, pero ralentiza el tiempo de recarga y la velocidad de equipado, afectando la agilidad en combate.",
+        "pros": [
+          "Cargador muy grande"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador ampliado XL",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.15 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "+4 cm",
+            "retroceso_vertical": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+19 ms",
+            "velocidad_equipado": "+52 ms",
+            "velocidad_sprintar": "-5%",
+            "velocidad_al_apuntar": "-29%"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+8 balas"
+          }
+        },
+        "descripcion_tecnica": "El Cargador Ampliado XL aumenta la capacidad del cargador en 8 balas, proporcionando una mayor reserva de munición antes de recargar. Sin embargo, esto conlleva un incremento en el tiempo de recarga (+0.15 s). En términos de control, mejora la estabilidad al apuntar en 4 cm, pero incrementa el retroceso vertical en 2 cm, lo que puede afectar disparos consecutivos. Además, ralentiza la movilidad: la velocidad de apuntado aumenta en 19 ms, la velocidad de equipado en 52 ms, y la velocidad al esprintar se reduce en un 5%. La velocidad al apuntar disminuye un 29%, lo que afecta la rapidez de reacción en combate. Es una opción para jugadores que valoran una mayor capacidad de fuego, pero requiere compensar su impacto en movilidad y control.",
+        "resumen": "El Cargador Ampliado XL mejora la capacidad de munición y estabilidad, pero ralentiza el movimiento y aumenta el retroceso vertical, afectando la agilidad en combate.",
+        "pros": [
+          "Cargador extragrande"
+        ],
+        "contras": [
+          "Ralentiza el movimiento, aumenta el retroceso vertical"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "La culata predeterminada Ninguno mantiene todas las estadísticas sin modificaciones, dejando el arma en su estado original. No aporta mejoras en estabilidad ni control, pero permite máxima movilidad sin restricciones. Es ideal para jugadores que prefieren un manejo ágil y rápido sin comprometer su velocidad de reacción en combate.",
+        "resumen": "La culata predeterminada mantiene la movilidad intacta y conserva el equilibrio original del arma, sin mejoras en estabilidad o control.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata Control-96",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.34 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm",
+            "retroceso_horizontal": "-1 cm",
+            "retroceso_vertical": "-2 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+16 ms",
+            "velocidad_equipado": "+38 ms",
+            "velocidad_sprintar": "-5%",
+            "velocidad_al_apuntar": "-14%"
+          }
+        },
+        "descripcion_tecnica": "La Culata Control-96 mejora el control del arma reduciendo el retroceso vertical en 2 cm y el horizontal en 1 cm, además de acelerar la recuperación del retroceso en 50 ms. Esto permite disparos más precisos y estables, especialmente en ráfagas cortas. Sin embargo, afecta la estabilidad al apuntar con una reducción de 4 cm, lo que puede comprometer la precisión en tiros a distancia. También ralentiza el manejo del arma, aumentando el tiempo de recarga en 0.34 s y la velocidad de equipado en 38 ms. La movilidad se ve afectada con una reducción del 5% en velocidad al esprintar y un 14% al apuntar, lo que limita la capacidad de reacción rápida en combate.",
+        "resumen": "La Culata Control-96 reduce el retroceso y mejora la recuperación entre disparos, pero ralentiza la recarga y afecta la movilidad, lo que requiere un manejo más calculado.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Recarga muy lenta"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata fija",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-5 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-1 cm",
+            "precision_dispersion": "-9 cm",
+            "recuperacion_retroceso": "-25 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+31 ms",
+            "velocidad_equipado": "+52 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "La Culata Fija mejora la precisión de dispersión en 9 cm y reduce el retroceso horizontal en 2 cm y el vertical en 1 cm, lo que permite disparos más precisos y controlados. Además, acelera la recuperación del retroceso en 25 ms, facilitando el manejo del arma en combates prolongados. Sin embargo, su impacto en la movilidad es notable: la velocidad al esprintar disminuye en 15% y la velocidad al apuntar en 57%, lo que limita la capacidad de reacción rápida en enfrentamientos dinámicos. También afecta la velocidad de apuntado y equipado, aumentando en 31 ms y 52 ms respectivamente. Es una opción recomendada para jugadores que priorizan estabilidad sobre movilidad.",
+        "resumen": "La Culata Fija mejora el control y la precisión, pero sacrifica significativamente la movilidad, reduciendo la rapidez de respuesta en combate.",
+        "pros": [
+          "Aumenta la precisión de la dispersión, reduce el retroceso horizontal"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ligera 712S",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-8 cm",
+            "retroceso_vertical": "-2 cm",
+            "precision_dispersion": "+8 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_equipado": "+25 ms"
+          }
+        },
+        "descripcion_tecnica": "La Culata Ligera 712S mejora la movilidad con un aumento de 25 ms en la velocidad de equipado, lo que permite una respuesta más rápida al cambiar de arma. También reduce el retroceso vertical en 2 cm, facilitando disparos más controlados. Sin embargo, su impacto en la estabilidad es considerable, con una reducción de 8 cm al apuntar, lo que puede dificultar la precisión en tiros calculados. Además, la precisión de dispersión aumenta en 8 cm, afectando la consistencia en disparos de mayor alcance. Su recuperación del retroceso mejora en 50 ms, agilizando la recuperación entre disparos. Es una opción adecuada para jugadores que buscan velocidad de manejo, pero requiere compensación en la puntería para mantener precisión.",
+        "resumen": "La Culata Ligera 712S mejora la movilidad y reduce el retroceso vertical, pero disminuye la estabilidad y precisión, lo que puede afectar la consistencia en tiros a distancia.",
+        "pros": [
+          "Reduce el retroceso vertical, mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Táctica Roble",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-3 cm",
+            "retroceso_horizontal": "-1 cm",
+            "retroceso_vertical": "-2 cm",
+            "precision_dispersion": "-9 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+31 ms",
+            "velocidad_equipado": "+66 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "La Culata Táctica Roble mejora la precisión y el control del arma al reducir la dispersión en 9 cm y disminuir el retroceso vertical en 2 cm y el horizontal en 1 cm. También agiliza la recuperación del retroceso en 50 ms, facilitando disparos consecutivos con mayor estabilidad. Sin embargo, su impacto en la movilidad es considerable: la velocidad al esprintar se reduce en 15% y la velocidad al apuntar en 57%, lo que ralentiza la respuesta en combate dinámico. La velocidad de apuntado y de equipado también aumentan en 31 ms y 66 ms respectivamente, lo que requiere un manejo más estratégico del arma. Es una opción excelente para jugadores que priorizan control y precisión sobre movilidad rápida.",
+        "resumen": "La Culata Táctica Roble ofrece un control mejorado y mayor precisión, pero reduce significativamente la movilidad, afectando la velocidad de reacción en combate.",
+        "pros": [
+          "Muy fácil de controlar"
+        ],
+        "contras": [
+          "Ralentiza el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "La Empuñadura Trasera Estándar mantiene todas sus estadísticas sin modificaciones, preservando el equilibrio original del arma. No aporta mejoras en estabilidad, control o movilidad, pero garantiza un manejo familiar y confiable sin afectar el rendimiento general. Es una opción ideal para quienes prefieren conservar la sensación y control estándar de la HS.22 sin ajustes adicionales.",
+        "resumen": "La Empuñadura Trasera Estándar mantiene el rendimiento original del arma sin modificaciones, ofreciendo estabilidad sin ventajas adicionales.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.18 s"
+          },
+          "control": {
+            "precision_dispersion": "+4 cm"
+          }
+        },
+        "descripcion_tecnica": "La Empuñadura Trasera Carga Rápida de Cuero reduce el tiempo de recarga en 0.18 s, permitiendo una reposición de munición más eficiente en combate. Sin embargo, esta mejora viene con un costo en precisión, aumentando la dispersión del disparo en 4 cm, lo que puede afectar la exactitud en enfrentamientos de mayor distancia. Es una opción ideal para jugadores que priorizan velocidad de recarga sobre precisión, siendo especialmente útil en situaciones de combate rápido y cuerpo a cuerpo.",
+        "resumen": "La Empuñadura Trasera Carga Rápida de Cuero optimiza la recarga del arma, pero reduce la precisión de dispersión, lo que puede impactar tiros a distancia.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+66 ms",
+            "velocidad_al_apuntar": "+50%"
+          }
+        },
+        "descripcion_tecnica": "La Cinta de Precisión X3 optimiza la movilidad del arma al incrementar la velocidad al apuntar en un 50%, lo que permite una respuesta más rápida en combate. Sin embargo, su velocidad de equipado aumenta en 66 ms, lo que ralentiza el tiempo de preparación del arma. Es una opción ideal para jugadores que priorizan la agilidad al apuntar, pero requiere adaptación al tiempo extra de equipado antes de cada disparo.",
+        "resumen": "La Cinta de Precisión X3 mejora la velocidad de apuntado, permitiendo una reacción más rápida, pero su tiempo de equipado es más lento, lo que puede afectar enfrentamientos dinámicos.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+25 ms",
+            "velocidad_equipado": "+66 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-43%"
+          }
+        },
+        "descripcion_tecnica": "La Cinta de Precisión X6 mejora la estabilidad al apuntar con una reducción de 5 cm, permitiendo disparos más precisos en situaciones controladas. Sin embargo, afecta significativamente la movilidad: la velocidad de apuntado aumenta en 25 ms, la velocidad de equipado en 66 ms, y la velocidad al esprintar se reduce en un 8%. Además, la velocidad al apuntar disminuye en un 43%, lo que puede dificultar la reacción rápida en combate dinámico. Es una opción adecuada para jugadores que buscan mejorar la estabilidad, pero requiere adaptación a su impacto en la movilidad.",
+        "resumen": "La Cinta de Precisión X6 mejora la estabilidad al apuntar, pero reduce significativamente la movilidad, afectando la rapidez de reacción en combate.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-24 ms",
+            "velocidad_equipado": "-99 ms"
+          }
+        },
+        "descripcion_tecnica": "La Empuñadura Trasera Desenfundado Rápido optimiza la velocidad de uso del arma, reduciendo el tiempo de apuntado en 24 ms y el tiempo de equipado en 99 ms, lo que permite una respuesta inmediata en combate. Además, mejora la estabilidad al apuntar en 4 cm, facilitando disparos más precisos. Sin embargo, al priorizar velocidad y rapidez de despliegue, puede afectar la consistencia en tiros calculados. Es una opción excelente para jugadores que buscan velocidad extrema en enfrentamientos rápidos.",
+        "resumen": "La Empuñadura Trasera Desenfundado Rápido permite un apuntado y equipado ultrarrápidos, mejorando la reacción en combate, aunque puede comprometer la estabilidad en tiros precisos.",
+        "pros": [
+          "Apuntado muy rápido, Equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El Receptor Estándar mantiene todas las estadísticas del arma sin modificaciones, ofreciendo un rendimiento equilibrado y sin ajustes adicionales. Su configuración predeterminada garantiza estabilidad en el manejo sin afectar la precisión, control o movilidad, permitiendo un desempeño fiable en cualquier situación de combate.",
+        "resumen": "El Receptor Estándar conserva la configuración original de la HS.22 sin modificaciones, manteniendo un equilibrio adecuado entre control y rendimiento.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm",
+            "retroceso_vertical": "+2 cm",
+            "precision_dispersion": "+11 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "El Receptor Alta Velocidad Reforzada aumenta la velocidad de salida en 30 m/s, reduciendo la caída de proyectiles y mejorando la efectividad en disparos de largo alcance. También incrementa el daño en 12 PS, haciendo los impactos más letales. Sin embargo, estas mejoras tienen costos en el control del arma: el retroceso horizontal aumenta en 1 cm y el vertical en 2 cm, lo que puede afectar la precisión en disparos consecutivos. Además, la precisión de dispersión se ve afectada con un incremento de 11 cm, requiriendo mayor ajuste en la puntería para mantener la precisión. La recuperación del retroceso se ralentiza en 38 ms, lo que puede comprometer la estabilidad en ráfagas prolongadas. Es ideal para jugadores que buscan mayor potencia a cambio de sacrificar algo de control.",
+        "resumen": "El Receptor Alta Velocidad Reforzada mejora el daño y la velocidad de salida, reduciendo la caída de proyectiles, pero aumenta el retroceso y afecta la precisión de dispersión, requiriendo mayor control en el disparo.",
+        "pros": [
+          "Aumenta el daño, reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso, reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+90 bpm",
+            "tiempo_recarga": "-0.12 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm"
+          }
+        },
+        "descripcion_tecnica": "El Receptor Cerrojo Aligerado mejora la cadencia de fuego en 90 bpm, permitiendo disparos más rápidos y eficientes en combate. Además, reduce el tiempo de recarga en 0.12 s, acelerando la reposición de munición y manteniendo la presión sobre los enemigos. Sin embargo, el retroceso horizontal aumenta en 1 cm, lo que puede afectar la precisión en disparos consecutivos, especialmente en ráfagas prolongadas. Es una opción ideal para jugadores que buscan mayor velocidad de disparo a cambio de un ligero sacrificio en estabilidad.",
+        "resumen": "El Receptor Cerrojo Aligerado optimiza la velocidad de disparo y la recarga, pero incrementa el retroceso horizontal, lo que puede afectar la precisión en ráfagas prolongadas.",
+        "pros": [
+          "Cadencia de fuego rápida"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-150 bpm",
+            "tiempo_recarga": "+0.24 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-1 cm",
+            "retroceso_vertical": "-1 cm"
+          }
+        },
+        "descripcion_tecnica": "El Receptor Cerrojo Pesado reduce la cadencia de fuego en 150 bpm, lo que ralentiza la velocidad de disparo pero mejora la estabilidad del arma. El tiempo de recarga aumenta en 0.24 s, lo que puede afectar la rapidez de reposición de munición en combate. Sin embargo, mejora el control al reducir el retroceso horizontal en 1 cm y el vertical en 1 cm, proporcionando disparos más precisos y controlados. Es ideal para jugadores que buscan una menor dispersión y mayor estabilidad en enfrentamientos prolongados.",
+        "resumen": "El Receptor Cerrojo Pesado reduce el retroceso y mejora la estabilidad del arma, pero sacrifica la cadencia de fuego y la velocidad de recarga, lo que puede afectar enfrentamientos rápidos.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-4 cm"
+          }
+        },
+        "descripcion_tecnica": "El Receptor de Precisión mejora la precisión de dispersión en 4 cm, lo que permite disparos más controlados y exactos. Sin embargo, reduce la velocidad de salida en 60 m/s, lo que aumenta la caída de proyectiles y requiere ajustes en la puntería para compensar trayectorias a larga distancia. Es una opción recomendada para jugadores que priorizan precisión sobre velocidad de proyectil, siendo ideal para enfrentamientos en los que cada disparo cuenta.",
+        "resumen": "El Receptor de Precisión optimiza la precisión del disparo, pero su menor velocidad de salida incrementa la caída de proyectiles, lo que puede afectar enfrentamientos a larga distancia.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 23:53:46"
+    }
+  },
+  {
+    "weapon": {
+      "name": "M1911",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "50 m",
+          "velocidad_salida": "240 m/s",
+          "daño": "58 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "450 bpm",
+          "tiempo_recarga": "2.29 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "28 cm",
+          "retroceso_horizontal": "9 cm",
+          "retroceso_vertical": "14 cm",
+          "precision_dispersion": "38 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "129 ms",
+          "velocidad_equipado": "595 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_al_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "41 m",
+          "zoom": "x1",
+          "capacidad_cargador": "7 balas"
+        }
+      },
+      "pros": [
+        "Potente y versátil"
+      ],
+      "contras": [
+        "Difícil de controlar"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "La munición perforante mantiene todas las estadísticas sin modificaciones, pero destaca por su capacidad de atravesar piedra y metal, lo que la hace ideal para eliminar enemigos tras coberturas sólidas. Sin embargo, su gran inconveniente es el rastro de bala visible que deja, lo que puede delatar la posición del tirador y comprometer la estrategia sigilosa. Es una excelente opción para jugadores que priorizan la penetración sobre la discreción en combate.",
+        "resumen": "La munición perforante atraviesa materiales resistentes, pero deja un rastro de bala visible, reduciendo la efectividad en estrategias sigilosas.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-48 m/s",
+            "daño": "+34 PS"
+          }
+        },
+        "descripcion_tecnica": "La munición de Punta Blanda incrementa el daño en 34 PS, permitiendo impactos más devastadores contra enemigos sin protección adicional. Sin embargo, su velocidad de salida se reduce en 48 m/s, lo que puede afectar la trayectoria del disparo y requerir ajustes en la puntería. Su principal limitación es la incapacidad de perforar cascos o superficies como madera, reduciendo su efectividad en escenarios con cobertura densa. Es ideal para enfrentamientos donde la potencia sea prioritaria sobre la penetración.",
+        "resumen": "La munición de Punta Blanda ofrece un daño considerable, pero su menor velocidad y falta de penetración limitan su efectividad contra enemigos con protección.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+20 m",
+            "velocidad_salida": "+96 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+6 m"
+          }
+        },
+        "descripcion_tecnica": "La Munición de Competición mejora el alcance efectivo en 20 metros y aumenta la velocidad de salida en 96 m/s, lo que reduce significativamente la caída de proyectiles y permite disparos más precisos a larga distancia. Sin embargo, su distancia de audición aumenta en 6 metros, lo que la hace más ruidosa y menos adecuada para estrategias de sigilo. Es ideal para enfrentamientos donde la precisión y el impacto sean prioridad, pero requiere un enfoque táctico para evitar la detección.",
+        "resumen": "La Munición de Competición mejora la velocidad y alcance del disparo, pero aumenta el ruido, reduciendo su efectividad en situaciones sigilosas.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-72 m/s",
+            "daño": "-18 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-16 m"
+          }
+        },
+        "descripcion_tecnica": "La munición subsónica reduce la velocidad de salida en 72 m/s y disminuye el daño en 18 PS, lo que afecta la letalidad del arma en combate. Su principal ventaja es la notable reducción de la distancia de audición en 16 metros, lo que la convierte en una opción excelente para estrategias de sigilo. Sin embargo, la baja potencia y la caída de proyectiles añadida requieren ajustes en la puntería para mantener la efectividad en combate a media y larga distancia. Es ideal para infiltraciones silenciosas, pero no para enfrentamientos directos.",
+        "resumen": "La munición subsónica reduce el ruido del disparo y mejora el sigilo, pero disminuye significativamente la potencia y aumenta la caída de proyectiles.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Mira",
+        "tipo": "Mira de hierro",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "La Mira de Hierro es el sistema de puntería estándar de la M1911, conservando todas las estadísticas sin modificaciones. Su mayor ventaja es la velocidad de apuntado excepcionalmente alta, lo que permite una rápida adquisición de objetivos en combate cercano. Sin embargo, carece de un indicador de caída de proyectiles, lo que puede dificultar la precisión a largas distancias. Es una opción confiable para enfrentamientos rápidos y dinámicos donde la movilidad es clave.",
+        "resumen": "La Mira de Hierro ofrece un apuntado rápido y sin restricciones, pero sin asistencia para la caída de proyectiles, lo que puede afectar la precisión en tiros lejanos.",
+        "pros": [
+          "Velocidad de apuntado muy alta"
+        ],
+        "contras": [
+          "Sin indicador de caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Mira",
+        "tipo": "Adaptada PU",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+21 ms",
+            "velocidad_al_apuntar": "-33%"
+          },
+          "otras_caracteristicas": {
+            "zoom": "x3"
+          }
+        },
+        "descripcion_tecnica": "La Mira Adaptada PU ofrece un zoom de x3, proporcionando una mejor visión del objetivo sin comprometer demasiado la movilidad. Su estabilidad al apuntar mejora en 2 cm, lo que contribuye a disparos más precisos. Sin embargo, la velocidad de apuntado se incrementa en 21 ms y la velocidad al apuntar disminuye en un 33%, lo que puede afectar la rapidez en situaciones dinámicas. Es una opción equilibrada para jugadores que buscan estabilidad sin sacrificar demasiado la capacidad de reacción en combate.",
+        "resumen": "La Mira Adaptada PU mejora la estabilidad al apuntar y mantiene un zoom moderado, pero reduce la velocidad de respuesta en enfrentamientos rápidos.",
+        "pros": [
+          "Excelente estabilidad al apuntar, Velocidad de apuntado baja"
+        ],
+        "contras": [
+          "Zoom bajo"
+        ]
+      },
+      {
+        "componente": "Mira",
+        "tipo": "ZF4 P",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "+5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+83 ms",
+            "velocidad_al_apuntar": "-33%"
+          },
+          "otras_caracteristicas": {
+            "zoom": "x3"
+          }
+        },
+        "descripcion_tecnica": "La mira ZF4 P ofrece un zoom de x3, permitiendo una visión más detallada del objetivo. Su estabilidad al apuntar mejora en 5 cm, lo que facilita tiros precisos. Sin embargo, su impacto en la movilidad es notable: la velocidad de apuntado se ralentiza en 83 ms y la velocidad al apuntar disminuye en un 33%, lo que puede afectar la rapidez en enfrentamientos dinámicos. Es ideal para mapas donde el posicionamiento y el tiro calculado sean clave, pero puede ser un obstáculo en combates de ritmo acelerado.",
+        "resumen": "La ZF4 P mejora la estabilidad y el alcance del apuntado, pero reduce significativamente la velocidad, lo que la hace menos eficaz en situaciones de combate rápido.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El Cañón Estándar de la M1911 mantiene todas sus estadísticas sin modificaciones, conservando el equilibrio original del arma. No ofrece ventajas adicionales en potencia, precisión o control, lo que lo hace una opción confiable para quienes prefieren la estabilidad sin ajustes externos. Su desempeño es predecible y adecuado para todo tipo de situaciones de combate, aunque puede no destacar en aspectos específicos como reducción de retroceso o aumento de daño.",
+        "resumen": "El Cañón Estándar mantiene el equilibrio original de la M1911 sin alterar su rendimiento, ofreciendo estabilidad sin ventajas adicionales.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Cañon estriado de la OSS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-7 cm"
+          }
+        },
+        "descripcion_tecnica": "El Cañón Estriado de la OSS mejora la precisión de dispersión en 7 cm, permitiendo disparos más controlados y consistentes. Sin embargo, reduce la velocidad de salida en 60 m/s, afectando el alcance efectivo del proyectil y aumentando su caída a mayores distancias. Este cañón es ideal para situaciones donde la precisión es más importante que la velocidad del disparo, pero requiere ajustes en la puntería para compensar su trayectoria descendente.",
+        "resumen": "El Cañón Estriado de la OSS mejora la precisión, pero reduce la velocidad de salida y aumenta la caída del proyectil, afectando el alcance a larga distancia.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Potencia de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+50 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+4 cm",
+            "precision_dispersion": "+13 cm"
+          }
+        },
+        "descripcion_tecnica": "El Cañón de Potencia de Alta Velocidad aumenta la velocidad de salida en 50 m/s y mejora el daño en 12 PS, proporcionando impactos más letales y reduciendo la caída de proyectiles. Sin embargo, esto viene acompañado de un incremento en el retroceso, con +2 cm en el eje horizontal y +4 cm en el vertical, afectando la estabilidad al disparar. Además, la precisión de dispersión se ve comprometida con un aumento de 13 cm, lo que dificulta la consistencia en tiros a distancia. Este cañón es ideal para enfrentamientos de corto a medio alcance donde la potencia es prioritaria sobre la precisión.",
+        "resumen": "El Cañón de Potencia de Alta Velocidad potencia el daño y la velocidad del proyectil, pero sacrifica estabilidad y precisión en disparos prolongados.",
+        "pros": [
+          "Aumenta el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Difícil de controlar"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Maxin 30",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El Silenciador Maxin 30 es el accesorio estándar de la M1911, diseñado para minimizar el ruido del disparo y mejorar la discreción en combate. Al no modificar ninguna estadística de rendimiento, conserva la estabilidad, precisión y velocidad de disparo originales. Sin embargo, su efecto en la caída de proyectiles puede dificultar el alcance de objetivos a mayores distancias, requiriendo ajustes en la puntería para compensar su trayectoria.",
+        "resumen": "El Silenciador Maxin 30 reduce el ruido sin alterar el rendimiento general del arma, pero aumenta la caída de proyectiles, afectando la precisión a larga distancia.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Compensador Cuts",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+50 bpm"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-5 cm",
+            "precision_dispersion": "+7 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+9 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+33 m"
+          }
+        },
+        "descripcion_tecnica": "El Compensador Cuts aumenta la velocidad de salida en 80 m/s y la cadencia de fuego en 50 bpm, mejorando la agresividad del arma. Su principal ventaja es la reducción del retroceso vertical en 5 cm y del horizontal en 2 cm, lo que facilita el control en disparos consecutivos. Sin embargo, la estabilidad al apuntar disminuye en 4 cm y la precisión de dispersión se ve afectada con un aumento de 7 cm, lo que reduce la efectividad en disparos a larga distancia. La velocidad de apuntado mejora en 9 ms, permitiendo una respuesta más rápida. Es adecuado para enfrentamientos dinámicos, pero requiere compensación por su menor precisión.",
+        "resumen": "El Compensador Cuts mejora el control del retroceso y la velocidad de disparo, pero afecta la precisión, haciéndolo menos efectivo en distancias largas.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Híbrida Welwyn",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+50 bpm"
+          },
+          "control": {
+            "retroceso_vertical": "-1 cm",
+            "precision_dispersion": "-12 cm"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+11 m"
+          }
+        },
+        "descripcion_tecnica": "La Híbrida Welwyn mejora la velocidad de salida del proyectil en 80 m/s y aumenta la cadencia en 50 bpm, facilitando disparos más rápidos. Su principal ventaja es la reducción en la dispersión de precisión en 12 cm, lo que incrementa la exactitud de los disparos. Sin embargo, el retroceso vertical disminuye solo en 1 cm, ofreciendo un ajuste limitado, y la distancia de audición aumenta en 11 metros, lo que compromete la discreción en combate sigiloso. Funciona bien en enfrentamientos de alcance medio donde la precisión es clave, pero su estabilidad reducida exige un control más preciso.",
+        "resumen": "La Híbrida Welwyn mejora la precisión de disparo y la velocidad, pero aumenta la distancia de audición y compromete la estabilidad del apuntado.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "MK.2 con silenciador Foxley",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+50 bpm"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm",
+            "retroceso_horizontal": "+3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+17 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-9 m"
+          }
+        },
+        "descripcion_tecnica": "El MK.2 con Silenciador Foxley mejora la velocidad de salida del proyectil en 80 m/s y aumenta la cadencia en 50 bpm, permitiendo disparos más rápidos y letales. Su gran ventaja es la reducción en la distancia de audición en 9 metros, lo que lo convierte en una opción ideal para el sigilo. Sin embargo, afecta la estabilidad del apuntado (-4 cm) y aumenta el retroceso horizontal (+3 cm), lo que dificulta la precisión en disparos consecutivos. La velocidad de apuntado se ve reducida en 17 ms, ralentizando la capacidad de reacción en situaciones intensas. Es una excelente opción para mapas pequeños y enfrentamientos silenciosos, pero exige mayor control y paciencia para compensar sus desventajas.",
+        "resumen": "El MK.2 con Silenciador Foxley ofrece mayor sigilo y velocidad de disparo, pero afecta la estabilidad y el tiempo de apuntado, lo que lo hace menos eficaz en duelos rápidos.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+50 bpm"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+33 m"
+          }
+        },
+        "descripcion_tecnica": "Sin modificación de boca para la M1911. Aumenta la velocidad de salida y la cadencia de fuego, pero reduce la estabilidad al apuntar e incrementa la distancia de audición. Al no tener un accesorio de boca, no ofrece las ventajas de un silenciador o un compensador, resultando en un arma más ruidosa y con menor estabilidad al apuntar.",
+        "re": null
+      }
+    ]
+  },
+  {
+    "weapon": {
+      "name": "Modelo D",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "60 m",
+          "velocidad_salida": "290 m/s",
+          "daño": "40 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "420 bpm",
+          "tiempo_recarga": "1.67 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "17 cm",
+          "retroceso_horizontal": "8 cm",
+          "retroceso_vertical": "14 cm",
+          "precision_dispersion": "28 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "107 ms",
+          "velocidad_equipado": "555 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_al_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "70 m",
+          "zoom": "x1",
+          "capacidad_cargador": "9 balas"
+        }
+      },
+      "pros": [
+        "La munición estándar perfora los cascos"
+      ],
+      "contras": [],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "Munición perforante para el Modelo D. No altera las estadísticas base del arma en cuanto a daño, velocidad o trayectoria. Su principal ventaja es la capacidad de penetrar materiales como piedra y metal. Sin embargo, deja un rastro de bala muy visible. Puede ser útil en cualquier tipo de mapa para eliminar enemigos atrincherados o disparar a través de coberturas finas, aunque el rastro puede delatar la posición del tirador.",
+        "resumen": "Penetra piedra y metal, pero deja un rastro visible. Útil contra objetivos cubiertos, pero revela la posición.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-58 m/s",
+            "daño": "+24 PS"
+          }
+        },
+        "descripcion_tecnica": "Munición de punta blanda para el Modelo D. Aumenta notablemente el daño, pero reduce la velocidad de salida del proyectil. Además, esta munición no tiene capacidad de penetración contra cascos o madera. Más adecuada para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde el daño por impacto es prioritario contra objetivos sin protección, a pesar de la menor velocidad y la falta de penetración.",
+        "resumen": "Daño significativamente mayor, pero menor velocidad y sin penetración. Útil en combates cercanos contra objetivos sin protección.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+24 m",
+            "velocidad_salida": "+116 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+10 m"
+          }
+        },
+        "descripcion_tecnica": "Munición de competición para el Modelo D. Aumenta significativamente la velocidad de salida y el alcance efectivo, lo que reduce notablemente la caída del proyectil. Sin embargo, incrementa la distancia de audición, haciendo el disparo más ruidoso. Adecuada para enfrentamientos a media y larga distancia en mapas de cualquier tamaño donde una trayectoria tensa y un mayor alcance son prioritarios, a pesar de la mayor sonoridad.",
+        "resumen": "Mucha menor caída y mayor alcance, pero muy ruidosa. Útil para disparos precisos a distancia.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-87 m/s",
+            "daño": "-12 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-28 m"
+          }
+        },
+        "descripcion_tecnica": "Munición subsónica para el Modelo D. Reduce significativamente la velocidad de salida y el daño, incrementando la caída del proyectil. Su mayor ventaja es la notable reducción en la distancia de audición. Más adecuada para mapas pequeños donde el sigilo es primordial, a pesar de su bajo daño y trayectoria menos precisa.",
+        "resumen": "Muy silenciosa, pero con daño reducido y mayor caída. Ideal para sigilo en mapas pequeños.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Cañón",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cañón estándar para el Modelo D. No altera las estadísticas base del arma. Proporciona el rendimiento predeterminado del cañón en cuanto a alcance, velocidad de salida y otros efectos. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en este aspecto.",
+        "resumen": "Cañón predeterminado sin alteraciones. Rendimiento estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Cañon estriado de la OSS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-5 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón estriado de la OSS para el Modelo D. Mejora la precisión de dispersión de los disparos, pero reduce la velocidad de salida del proyectil, lo que resulta en una mayor caída de bala a larga distancia. Adecuado para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde la exactitud es prioritaria, aunque la trayectoria menos tensa puede ser un inconveniente en disparos lejanos.",
+        "resumen": "Mayor precisión, pero menor velocidad y más caída del proyectil. Útil en mapas cerrados priorizando la exactitud.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Potencia de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+50 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+4 cm",
+            "precision_dispersion": "+10 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón de alta velocidad para el Modelo D. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical, y la dispersión de los disparos. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso y la menor precisión dificultan el control en ráfagas rápidas.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más difícil de controlar. Útil en mapas amplios para disparos potentes.",
+        "pros": [
+          "Aumenta el daño, reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Difícil de controlar"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Sin modificación de boca para el Modelo D. No altera las estadísticas base del arma. Proporciona el rendimiento predeterminado del arma en cuanto a sonido, alcance y otros efectos de boca. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en este aspecto.",
+        "resumen": "Sin modificación de boca, rendimiento estándar. Sonido y alcance predeterminados.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Freno de boca McLeen",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-4 cm",
+            "precision_dispersion": "-6 cm",
+            "recuperacion_retroceso": "-75 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+8 ms",
+            "velocidad_al_apuntar": "-21%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+21 m"
+          }
+        },
+        "descripcion_tecnica": "Freno de boca McLeen para el Modelo D. Reduce significativamente el retroceso horizontal y vertical, mejora la precisión de dispersión y disminuye el tiempo de recuperación del retroceso, pero reduce la velocidad al apuntar y aumenta notablemente la distancia de audición. Favorece el control y la precisión en disparos rápidos a medio alcance en mapas de cualquier tamaño, aunque el ruido puede comprometer el sigilo.",
+        "resumen": "Control y precisión muy mejorados, pero muy ruidosa. Óptima para disparos rápidos y controlados.",
+        "pros": [
+          "Muy fácil de controlar"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "MK.2 con silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+15 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-40 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Foxley MK.2 para el Modelo D. Reduce notablemente la distancia de audición, pero ralentiza significativamente la velocidad de apuntado e incrementa el retroceso horizontal. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar de la penalización en la velocidad de apuntado y el aumento del retroceso horizontal.",
+        "resumen": "Muy silenciosa, pero apuntado muy lento y mayor retroceso horizontal. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-35 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Foxley para el Modelo D. Reduce significativamente la distancia de audición, pero ralentiza notablemente la velocidad de apuntado e incrementa el retroceso horizontal. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar de la penalización en la velocidad de apuntado y el aumento del retroceso.",
+        "resumen": "Muy silenciosa, pero apuntado muy lento y mayor retroceso horizontal. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador M-27 modificado",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-90 m/s"
+          },
+          "control": {
+            "estabilidad_apuntar": "+5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+15 ms",
+            "velocidad_equipado": "+62 ms",
+            "velocidad_al_apuntar": "-21%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-42 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador M-27 modificado para el Modelo D. Reduce notablemente la distancia de audición y disminuye la velocidad de salida, lo que incrementa la caída del proyectil. Además, mejora ligeramente la velocidad de apuntado y de equipado, y reduce la velocidad al apuntar, a la vez que aumenta la estabilidad al apuntar. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar de la menor velocidad del proyectil and la reducción en la velocidad al apuntar.",
+        "resumen": "Muy silenciosa, pero con más caída y menor velocidad al apuntar. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar, aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Maxin 30",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-42 bpm"
+          },
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-31 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Maxin 30 para el Modelo D. Reduce significativamente la distancia de audición y la velocidad de salida, lo que incrementa la caída del proyectil. Además, disminuye ligeramente la cadencia de fuego y mejora un poco la estabilidad al apuntar. Ideal para operaciones sigilosas en mapas pequeños y medianos donde el ruido es crucial, a pesar de la reducción en la velocidad y la trayectoria del proyectil.",
+        "resumen": "Muy silenciosa, pero con menor velocidad y cadencia, y más caída. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador de destello",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+65 m/s"
+          },
+          "control": {
+            "retroceso_vertical": "-3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+13 ms"
+          }
+        },
+        "descripcion_tecnica": "Silenciador de destello para el Modelo D. Aumenta la velocidad de salida, reduciendo la caída del proyectil, y disminuye ligeramente el retroceso vertical, además de ralentizar un poco la velocidad de apuntado. Puede ser útil en mapas medianos y grandes para disparos a mayor distancia con una trayectoria más tensa, aunque la lentitud al apuntar puede ser un inconveniente en reacciones rápidas.",
+        "resumen": "Menor caída del proyectil, pero apuntado lento. Útil para disparos más precisos a media y larga distancia.",
+        "pros": [
+          "Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cargador estándar para el Modelo D. No modifica las estadísticas base del arma. Proporciona la capacidad de munición predeterminada del arma (0 balas, ya que es un rifle de cerrojo en Sniper Elite 5). Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en la capacidad o la velocidad de recarga (que es inherente a la acción del cerrojo).",
+        "resumen": "Cargador predeterminado sin alteraciones. Capacidad de munición estándar (0, requiere recarga después de cada disparo).",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador ampliado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.19 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "+3 cm",
+            "retroceso_vertical": "+3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+9 ms",
+            "velocidad_equipado": "+30 ms"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+3 balas"
+          }
+        },
+        "descripcion_tecnica": "Cargador ampliado para el Modelo D. Aumenta la capacidad del cargador en 3 balas, pero incrementa ligeramente el tiempo de recarga, la inestabilidad al apuntar y el retroceso vertical, además de ralentizar un poco la velocidad de apuntado y de equipado. Puede ser útil en enfrentamientos donde se necesiten disparos rápidos sin recargar inmediatamente, aunque la menor estabilidad y la lentitud al apuntar pueden ser desventajosas en situaciones de alta presión.",
+        "resumen": "Mayor capacidad de cargador, pero apuntado más lento y menor estabilidad. Útil para tener más disparos disponibles.",
+        "pros": [
+          "Cargador muy grande"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+20 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+4 cm",
+            "precision_dispersion": "+6 cm",
+            "recuperacion_retroceso": "+25 ms"
+          }
+        },
+        "descripcion_tecnica": "Cargador de alta velocidad para el Modelo D. Aumenta la velocidad de salida y el daño de los proyectiles, pero incrementa el retroceso horizontal y vertical, la dispersión de los disparos y ligeramente el tiempo de recuperación del retroceso. Puede ser útil para aumentar el impacto en el objetivo, aunque el mayor retroceso y la menor precisión dificultan el control en disparos rápidos o múltiples.",
+        "resumen": "Mayor daño, pero con más retroceso y dispersión. Útil para aumentar el impacto de cada disparo.",
+        "pros": [
+          "Aumento el daño"
+        ],
+        "contras": [
+          "Aumenta el retroceso y la dispersión"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador ampliado XL",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.19 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "+4 cm",
+            "retroceso_vertical": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+15 ms",
+            "velocidad_equipado": "+49 ms",
+            "velocidad_sprintar": "-5%",
+            "velocidad_al_apuntar": "-29%"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+9 balas"
+          }
+        },
+        "descripcion_tecnica": "Cargador ampliado XL para el Modelo D. Aumenta significativamente la capacidad del cargador en 9 balas, pero incrementa ligeramente el tiempo de recarga, la inestabilidad al apuntar y el retroceso vertical. Además, ralentiza la velocidad de apuntado, de equipado y al esprintar. Puede ser útil en situaciones donde se requiere una gran cantidad de disparos sin recargar, aunque la menor movilidad y el mayor retroceso pueden ser desventajosos en enfrentamientos dinámicos o a larga distancia.",
+        "resumen": "Cargador extragrande a costa de menor movilidad y mayor retroceso vertical. Útil para tener muchos disparos disponibles.",
+        "pros": [
+          "Cargador extragrande"
+        ],
+        "contras": [
+          "Ralentiza el movimiento, aumenta el retroceso vertical"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Sin culata para el Modelo D. No altera las estadísticas base del arma. Proporciona el manejo predeterminado del arma sin modificaciones en la culata. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas relacionadas con la culata.",
+        "resumen": "Sin culata, rendimiento estándar. Manejo predeterminado sin alteraciones.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata Control-96",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.42 s"
+          },
+          "control": {
+            "estabilidad_al_apuntar": "-4 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-5 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms",
+            "velocidad_equipado": "+36 ms",
+            "velocidad_sprintar": "-5%",
+            "velocidad_al_apuntar": "-14%"
+          }
+        },
+        "descripcion_tecnica": "Culata Control-96 para el Modelo D. Reduce el retroceso horizontal y vertical, y mejora la estabilidad al apuntar y el tiempo de recuperación del retroceso, pero incrementa notablemente el tiempo de recarga y reduce ligeramente la velocidad al apuntar, de equipado y al esprintar. Favorece el control y la precisión en disparos a medio y largo alcance en mapas de cualquier tamaño, aunque la recarga lenta puede ser un inconveniente en enfrentamientos prolongados o donde se necesiten disparos rápidos seguidos.",
+        "resumen": "Menor retroceso y mejor estabilidad, pero recarga muy lenta. Adecuada para disparos precisos y controlados.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Recarga muy lenta"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata fija",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-5 cm",
+            "retroceso_horizontal": "-3 cm",
+            "retroceso_vertical": "-2 cm",
+            "precision_dispersion": "-8 cm",
+            "recuperacion_retroceso": "-25 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+24 ms",
+            "velocidad_equipado": "+49 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "Culata fija para el Modelo D. Mejora significativamente la precisión de dispersión y reduce el retroceso horizontal y vertical, además de disminuir ligeramente el tiempo de recuperación del retroceso, pero reduce notablemente la velocidad al apuntar y al esprintar, y ralentiza el apuntado y el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión y el control son prioritarios, a pesar de la penalización en la movilidad general.",
+        "resumen": "Precisión y retroceso horizontal mejorados, pero movimiento muy lento. Óptima para disparos precisos en mapas amplios.",
+        "pros": [
+          "Aumenta la precisión de la dispersión, reduce el retroceso horizontal"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ligera 712S",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-8 cm",
+            "retroceso_vertical": "-6 cm",
+            "precision_dispersion": "+7 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_equipado": "+23 ms"
+          }
+        },
+        "descripcion_tecnica": "Culata ligera 712S para el Modelo D. Mejora la estabilidad al apuntar y reduce el retroceso vertical, además de disminuir el tiempo de recuperación del retroceso y aumentar ligeramente la velocidad de equipado, pero reduce la precisión de dispersión. Puede ser útil en mapas de cualquier tamaño para mejorar la estabilidad y el control vertical durante el disparo, aunque la menor precisión puede ser un inconveniente a larga distancia.",
+        "resumen": "Mejor estabilidad y menor retroceso vertical, pero menor precisión. Adecuada para control en ráfagas cortas en cualquier mapa.",
+        "pros": [
+          "Reduce el retroceso vertical, mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Táctica Roble",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-3 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-5 cm",
+            "precision_dispersion": "-8 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+24 ms",
+            "velocidad_equipado": "+62 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "Culata táctica Roble para el Modelo D. Mejora la estabilidad al apuntar y reduce el retroceso horizontal y vertical, además de aumentar la precisión de dispersión y disminuir el tiempo de recuperación del retroceso. Sin embargo, reduce notablemente la velocidad al apuntar y al esprintar, y ralentiza el apuntado y el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión y el control son prioritarios, a pesar de la penalización en la movilidad general.",
+        "resumen": "Control y precisión muy mejorados, pero movimiento lento. Óptima para disparos precisos en mapas amplios.",
+        "pros": [
+          "Muy fácil de controlar"
+        ],
+        "contras": [
+          "Ralentiza el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Empuñadura trasera estándar para el Modelo D. No altera las estadísticas base del arma. Proporciona el agarre predeterminado del arma. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas relacionadas con la empuñadura.",
+        "resumen": "Empuñadura predeterminada sin alteraciones. Agarre estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.22 s"
+          },
+          "control": {
+            "precision_dispersion": "+4 cm"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de carga rápida de cuero para el Modelo D. Disminuye notablemente el tiempo de recarga, pero reduce la precisión de dispersión de los disparos. Puede ser útil en enfrentamientos donde se necesita recargar rápidamente entre disparos, aunque la menor precisión puede ser un inconveniente a larga distancia.",
+        "resumen": "Recarga muy rápida a costa de menor precisión. Útil para mantener la cadencia en enfrentamientos.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+62 ms",
+            "velocidad_al_apuntar": "+50%"
+          }
+        },
+        "descripcion_tecnica": "Cinta de precisión X3 para la empuñadura trasera del Modelo D. Aumenta significativamente la velocidad de movimiento al apuntar, pero incrementa notablemente el tiempo de equipado. Puede ser útil para realizar ajustes de puntería rápidos mientras se está apuntando, aunque la lentitud al cambiar al arma puede ser un inconveniente en situaciones de reacción rápida.",
+        "resumen": "Mayor velocidad al apuntar, pero equipado muy lento. Útil para ajustes de mira rápidos.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+19 ms",
+            "velocidad_equipado": "+62 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-43%"
+          }
+        },
+        "descripcion_tecnica": "Cinta de precisión X6 para la empuñadura trasera del Modelo D. Mejora la estabilidad al apuntar, pero reduce notablemente la velocidad al apuntar y al esprintar, y ralentiza el equipamiento. Más adecuada para disparos estáticos y precisos a medio y largo alcance en mapas grandes, donde la estabilidad es prioritaria a pesar de la pérdida de movilidad general.",
+        "resumen": "Mayor estabilidad al apuntar, pero movimiento muy lento. Óptima para disparos precisos desde posiciones fijas.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_al_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-18 ms",
+            "velocidad_equipado": "-92 ms"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de desenfundado rápido para el Modelo D. Aumenta significativamente la velocidad de apuntado y de equipado, pero reduce ligeramente la estabilidad al apuntar. Ideal para enfrentamientos rápidos y reacciones inmediatas en cualquier tipo de mapa, aunque la menor estabilidad puede afectar la precisión en disparos sostenidos o a larga distancia.",
+        "resumen": "Apuntado y equipado muy rápidos a costa de menor estabilidad. Útil para reacciones rápidas y cambios de arma veloces.",
+        "pros": [
+          "Apuntado muy rápido, equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Receptor estándar para el Modelo D. No altera las estadísticas base del arma. Proporciona el funcionamiento predeterminado del receptor del arma. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas relacionadas con el receptor.",
+        "resumen": "Receptor predeterminado sin alteraciones. Funcionamiento estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+4 cm",
+            "precision_dispersion": "+10 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "Receptor de alta velocidad reforzado para el Modelo D. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical, la dispersión de los disparos y el tiempo de recuperación del retroceso. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso y la menor precisión dificultan el control en disparos rápidos o múltiples.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más retroceso y menor precisión. Útil en mapas amplios para disparos potentes.",
+        "pros": [
+          "Aumenta el daño, reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso, reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+63 bpm",
+            "tiempo_recarga": "-0.15 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm"
+          }
+        },
+        "descripcion_tecnica": "Cerrojo aligerado para el Modelo D. Aumenta la cadencia de fuego y disminuye ligeramente el tiempo de recarga, pero incrementa el retroceso horizontal. Puede ser útil en enfrentamientos a corta y media distancia donde una mayor cadencia de disparo es ventajosa, aunque el mayor retroceso horizontal puede dificultar el control en ráfagas rápidas.",
+        "resumen": "Mayor cadencia de fuego, pero con más retroceso horizontal. Útil en combates cercanos para disparos más rápidos.",
+        "pros": [
+          "Cadencia de fuego rápida"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-105 bpm",
+            "tiempo_recarga": "+0.29 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-3 cm"
+          }
+        },
+        "descripcion_tecnica": "Cerrojo pesado para el Modelo D. Reduce el retroceso horizontal y vertical, pero disminuye notablemente la cadencia de fuego e incrementa el tiempo de recarga. Favorece el control y la precisión en disparos únicos a medio y largo alcance en mapas de cualquier tamaño, aunque la baja cadencia puede ser un inconveniente en enfrentamientos donde se necesiten disparos rápidos o múltiples.",
+        "resumen": "Menor retroceso, pero cadencia de fuego muy lenta. Adecuado para disparos únicos y controlados.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Convertidor de potencia del .380",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+50 m/s",
+            "daño": "+15 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+3 cm"
+          }
+        },
+        "descripcion_tecnica": "Convertidor de potencia del .380 para el Modelo D. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso puede dificultar el control en disparos rápidos o múltiples.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más retroceso. Útil en mapas amplios para disparos potentes.",
+        "pros": [
+          "Aumento el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-4 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor de precisión para el Modelo D. Mejora la precisión de dispersión de los disparos, pero reduce la velocidad de salida del proyectil, lo que resulta en una mayor caída de bala a larga distancia. Adecuado para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde la exactitud es prioritaria, aunque la trayectoria menos tensa puede ser un inconveniente en disparos lejanos.",
+        "resumen": "Mayor precisión, pero menor velocidad y más caída del proyectil. Útil en mapas cerrados priorizando la exactitud.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 22:31:49"
+    }
+  },
+  {
+    "weapon": {
+      "name": "Pistola O8",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "80 m",
+          "velocidad_salida": "380 m/s",
+          "daño": "43 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "440 bpm",
+          "tiempo_recarga": "2.00 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "19 cm",
+          "retroceso_horizontal": "9 cm",
+          "retroceso_vertical": "16 cm",
+          "precision_dispersion": "30 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "150 ms",
+          "velocidad_equipado": "595 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "70 m",
+          "zoom": "x1",
+          "capacidad_cargador": "8 balas"
+        }
+      },
+      "pros": [
+        "Baja caída de proyectiles",
+        "Adecuada para tiros a distancia"
+      ],
+      "contras": [
+        "Apuntado lento"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "Munición perforante para la pistola O8. No altera las estadísticas base del arma en cuanto a daño, velocidad o trayectoria. Su principal ventaja es la capacidad de penetrar materiales como piedra y metal. Sin embargo, deja un rastro de bala muy visible. Puede ser útil en cualquier tipo de mapa para eliminar enemigos atrincherados o disparar a través de coberturas finas, aunque el rastro puede delatar la posición del tirador.",
+        "resumen": "Penetra piedra y metal, pero deja un rastro visible. Útil contra objetivos cubiertos, pero revela la posición.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-76 m/s",
+            "daño": "+24 PS"
+          }
+        },
+        "descripcion_tecnica": "Munición de punta blanda para la pistola O8. Aumenta notablemente el daño, pero reduce la velocidad de salida del proyectil. Además, esta munición no tiene capacidad de penetración contra cascos o madera. Más adecuada para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde el daño por impacto es prioritario contra objetivos sin protección, a pesar de la menor velocidad y la falta de penetración.",
+        "resumen": "Daño significativamente mayor, pero menor velocidad y sin penetración. Útil en combates cercanos contra objetivos sin protección.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+32 m",
+            "velocidad_salida": "+152 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+10 m"
+          }
+        },
+        "descripcion_tecnica": "Munición de competición para la pistola O8. Aumenta significativamente la velocidad de salida y el alcance efectivo, lo que reduce notablemente la caída del proyectil. Sin embargo, incrementa la distancia de audición, haciendo el disparo más ruidoso. Adecuada para enfrentamientos a media y larga distancia en mapas de cualquier tamaño donde una trayectoria tensa y un mayor alcance son prioritarios, a pesar de la mayor sonoridad.",
+        "resumen": "Mucha menor caída y mayor alcance, pero muy ruidosa. Útil para disparos precisos a distancia.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-114 m/s",
+            "daño": "-13 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-28 m"
+          }
+        },
+        "descripcion_tecnica": "Munición subsónica para la pistola O8. Reduce significativamente la velocidad de salida y el daño, incrementando la caída del proyectil. Su mayor ventaja es la notable reducción en la distancia de audición. Más adecuada para mapas pequeños donde el sigilo es primordial, a pesar de su bajo daño y trayectoria menos precisa.",
+        "resumen": "Muy silenciosa, pero con daño reducido y mayor caída. Ideal para sigilo en mapas pequeños.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Mira",
+        "tipo": "Mira de hierro",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Mira de hierro estándar para la pistola O8. No altera las estadísticas base del arma. Proporciona la mira predeterminada del arma. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en cuanto a zoom o velocidad de apuntado.",
+        "resumen": "Mira predeterminada sin alteraciones. Visión estándar para cualquier situación.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Mira",
+        "tipo": "Adaptada PU",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+1 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+25 ms",
+            "velocidad_al_apuntar": "-33%"
+          },
+          "otras_caracteristicas": {
+            "zoom": "x3"
+          }
+        },
+        "descripcion_tecnica": "Mira adaptada PU para la pistola O8. Proporciona un zoom de x3, pero incrementa ligeramente la velocidad de apuntado y reduce la velocidad de movimiento al apuntar, además de mejorar mínimamente la estabilidad al apuntar. Puede ser útil en mapas medianos para tener una mejor visión del objetivo, aunque el zoom limitado y la reducción en la velocidad al apuntar pueden no ser ideales para enfrentamientos a larga distancia o muy rápidos.",
+        "resumen": "Zoom útil con ligera mejora de estabilidad, pero reduce la velocidad al apuntar. Adecuada para una visión mejorada a medio alcance.",
+        "pros": [
+          "Excelente estabilidad al apuntar, velocidad de apuntado baja"
+        ],
+        "contras": [
+          "Zoom bajo"
+        ]
+      },
+      {
+        "componente": "Mira",
+        "tipo": "ZF4 P",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+97 ms",
+            "velocidad_al_apuntar": "-33%"
+          },
+          "otras_caracteristicas": {
+            "zoom": "x3"
+          }
+        },
+        "descripcion_tecnica": "Mira ZF4 P para la pistola O8. Proporciona un zoom de x3, pero incrementa notablemente la velocidad de apuntado y reduce la velocidad de movimiento al apuntar, además de mejorar ligeramente la estabilidad al apuntar. Puede ser útil en mapas medianos y grandes para enfrentamientos a mayor distancia gracias al zoom, aunque la lentitud al apuntar y la menor estabilidad pueden ser desventajosas en combates rápidos o a corta distancia.",
+        "resumen": "Zoom útil para distancia, pero apuntado lento y poca estabilidad. Adecuada para disparos más precisos a medio alcance.",
+        "pros": [
+          "Varias opciones de zoom"
+        ],
+        "contras": [
+          "Poca estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cañón estándar para la pistola O8. No altera las estadísticas base del arma. Proporciona el rendimiento predeterminado del cañón en cuanto a alcance, velocidad de salida y otros efectos. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en este aspecto.",
+        "resumen": "Cañón predeterminado sin alteraciones. Rendimiento estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Cañon estriado de la OSS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-5 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón estriado de la OSS para la pistola O8. Mejora la precisión de dispersión de los disparos, pero reduce la velocidad de salida del proyectil, lo que resulta en una mayor caída de bala a larga distancia. Adecuado para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde la exactitud es prioritaria, aunque la trayectoria menos tensa puede ser un inconveniente en disparos lejanos.",
+        "resumen": "Mayor precisión, pero menor velocidad y más caída del proyectil. Útil en mapas cerrados priorizando la exactitud.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Potencia de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+50 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+5 cm",
+            "precision_dispersion": "+11 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón de alta velocidad para la pistola O8. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical, y la dispersión de los disparos. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso y la menor precisión dificultan el control en ráfagas rápidas.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más difícil de controlar. Útil en mapas amplios para disparos potentes.",
+        "pros": [
+          "Aumenta el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Difícil de controlar"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Sin modificación de boca para la pistola O8. No altera las estadísticas base del arma. Proporciona el rendimiento predeterminado del arma en cuanto a sonido, alcance y otros efectos de boca. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en este aspecto.",
+        "resumen": "Sin modificación de boca, rendimiento estándar. Sonido y alcance predeterminados.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Cañón de artillería extendido",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+70 m/s"
+          },
+          "control": {
+            "recuperacion_retroceso": "+38 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+20 ms"
+          }
+        },
+        "descripcion_tecnica": "Cañón de artillería extendido para la pistola O8. Aumenta la velocidad de salida, reduciendo la caída del proyectil, pero incrementa el tiempo de recuperación del retroceso y ralentiza la velocidad de apuntado. Más adecuado para enfrentamientos a medio alcance en mapas de cualquier tamaño donde una trayectoria más tensa es ventajosa, a pesar de la lentitud al apuntar.",
+        "resumen": "Menor caída del proyectil, pero apuntado muy lento. Útil para disparos más precisos a media distancia.",
+        "pros": [
+          "Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Cañón de carabina extendido",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+150 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-110 bpm"
+          },
+          "control": {
+            "recuperacion_retroceso": "+62 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+20 ms"
+          }
+        },
+        "descripcion_tecnica": "Cañón de carabina extendido para la pistola O8. Aumenta significativamente la velocidad de salida, reduciendo notablemente la caída del proyectil, pero disminuye la cadencia de fuego, incrementa el tiempo de recuperación del retroceso y ralentiza la velocidad de apuntado. Más adecuado para enfrentamientos a medio y largo alcance en mapas grandes donde la trayectoria tensa es prioritaria, a pesar de la menor cadencia y la lentitud al apuntar.",
+        "resumen": "Mucha menor caída, pero apuntado y cadencia lentos. Útil en mapas amplios para disparos precisos a distancia.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles"
+        ],
+        "contras": [
+          "Apuntado muy lento, cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Freno antirretroceso MK.2",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "-3 cm",
+            "retroceso_vertical": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+11 ms",
+            "velocidad_al_apuntar": "-14%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+10 m"
+          }
+        },
+        "descripcion_tecnica": "Freno antirretroceso MK.2 para la pistola O8. Reduce el retroceso horizontal y vertical, pero disminuye ligeramente la velocidad al apuntar y aumenta la distancia de audición. Favorece el control en disparos rápidos a corta y media distancia en mapas de cualquier tamaño, aunque el ruido puede comprometer el sigilo.",
+        "resumen": "Menor retroceso, pero muy ruidosa. Útil para mejorar el control en ráfagas rápidas.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Freno de boca McLeen",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "-3 cm",
+            "retroceso_vertical": "-5 cm",
+            "precision_dispersion": "-6 cm",
+            "recuperacion_retroceso": "-75 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+11 ms",
+            "velocidad_al_apuntar": "-21%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+21 m"
+          }
+        },
+        "descripcion_tecnica": "Freno de boca McLeen para la pistola O8. Reduce significativamente el retroceso horizontal y vertical, mejora la precisión de dispersión y disminuye el tiempo de recuperación del retroceso, pero reduce la velocidad al apuntar y aumenta notablemente la distancia de audición. Favorece el control y la precisión en disparos rápidos a medio alcance en mapas de cualquier tamaño, aunque el ruido puede comprometer el sigilo.",
+        "resumen": "Control y precisión muy mejorados, pero muy ruidosa. Óptima para disparos rápidos y controlados.",
+        "pros": [
+          "Muy fácil de controlar"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "MK.2 con silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+20 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-40 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Foxley MK.2 para la pistola O8. Reduce notablemente la distancia de audición, pero ralentiza significativamente la velocidad de apuntado e incrementa el retroceso horizontal. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar de la penalización en la velocidad de apuntado y el aumento del retroceso horizontal.",
+        "resumen": "Muy silenciosa, pero apuntado muy lento y mayor retroceso horizontal. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador de las SS",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+5 cm",
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+20 ms",
+            "velocidad_al_apuntar": "-29%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-43 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador de las SS para la pistola O8. Reduce notablemente la distancia de audición, pero incrementa la estabilidad al apuntar y el retroceso horizontal y vertical, además de reducir la velocidad al apuntar y ralentizar ligeramente la velocidad de apuntado. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar del aumento en el retroceso y la reducción en la velocidad de apuntado.",
+        "resumen": "Muy silenciosa, pero con mayor retroceso y menor velocidad al apuntar. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Aumenta el retroceso"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+17 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-35 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Foxley para la pistola O8. Reduce significativamente la distancia de audición, pero ralentiza notablemente la velocidad de apuntado e incrementa el retroceso horizontal. Ideal para operaciones encubiertas en mapas pequeños y medianos donde el sigilo es primordial, a pesar de la penalización en la velocidad de apuntado y el aumento del retroceso.",
+        "resumen": "Muy silenciosa, pero apuntado muy lento y mayor retroceso horizontal. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Maxin 30",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-44 bpm"
+          },
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-31 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador Maxin 30 para la pistola O8. Reduce significativamente la distancia de audición, pero disminuye la velocidad de salida y la cadencia de fuego, además de aumentar ligeramente la estabilidad al apuntar, lo que resulta en una mayor caída del proyectil. Ideal para operaciones sigilosas en mapas pequeños y medianos donde el ruido es crucial, a pesar de la reducción en la velocidad y la trayectoria del proyectil.",
+        "resumen": "Muy silenciosa, pero con menor velocidad y cadencia, y más caída. Óptima para sigilo en mapas cerrados.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Supresor de las SS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+60 m/s",
+            "daño": "+3 PS"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+88 bpm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+11 ms",
+            "velocidad_equipado": "+66 ms"
+          }
+        },
+        "descripcion_tecnica": "Supresor de las SS para la pistola O8. Aumenta la velocidad de salida y ligeramente el daño y la cadencia de fuego, además de mejorar la velocidad de equipado, pero ralentiza significativamente la velocidad de apuntado y reduce la caída del proyectil. Puede ser útil en mapas medianos y grandes para aumentar el alcance y la velocidad de disparo manteniendo un perfil sonoro más bajo, aunque la lentitud al apuntar puede ser un inconveniente en reacciones rápidas.",
+        "resumen": "Menor caída y mayor cadencia, pero apuntado muy lento. Útil en mapas amplios para disparos más precisos a distancia.",
+        "pros": [
+          "Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cargador estándar para la pistola O8. No modifica las estadísticas base del arma. Proporciona la capacidad de munición predeterminada del arma. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en la capacidad o la velocidad de recarga.",
+        "resumen": "Cargador predeterminado sin alteraciones. Capacidad y velocidad de recarga estándar.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador de caracol",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.25 s"
+          },
+          "control": {
+            "precision_dispersion": "+8 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+20 ms",
+            "velocidad_equipado": "+149 ms"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+24 balas"
+          }
+        },
+        "descripcion_tecnica": "Cargador de caracol para la pistola O8. Aumenta significativamente la capacidad del cargador, pero incrementa el tiempo de recarga, la dispersión de los disparos y ralentiza notablemente la velocidad de apuntado y de equipado. Puede ser útil en mapas pequeños y medianos donde se requiere una gran cantidad de disparos sin recargar frecuentemente, aunque la menor precisión y la lentitud al apuntar pueden ser desventajosas en enfrentamientos directos.",
+        "resumen": "Cargador muy grande a costa de menor precisión y velocidad de manejo. Útil en mapas cerrados para ráfagas prolongadas.",
+        "pros": [
+          "Cargador muy grande"
+        ],
+        "contras": [
+          "Apuntado muy lento, Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ninguno",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Sin culata para la pistola O8. No altera las estadísticas base del arma. Proporciona el manejo predeterminado del arma sin modificaciones en la culata. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas relacionadas con la culata.",
+        "resumen": "Sin culata, rendimiento estándar. Manejo predeterminado sin alteraciones.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata Control-96",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.50 s"
+          },
+          "control": {
+            "estabilidad_apuntar": "-4 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-6 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+17 ms",
+            "velocidad_equipado": "+38 ms",
+            "velocidad_sprintar": "-5%",
+            "velocidad_al_apuntar": "-14%"
+          }
+        },
+        "descripcion_tecnica": "Culata Control-96 para la pistola O8. Reduce el retroceso horizontal y vertical, mejora la estabilidad al apuntar y disminuye el tiempo de recuperación del retroceso, pero incrementa notablemente el tiempo de recarga y reduce ligeramente la velocidad al apuntar y al esprintar. Favorece el control y la precisión en disparos a medio alcance en mapas de cualquier tamaño, aunque la recarga lenta puede ser un inconveniente en enfrentamientos prolongados.",
+        "resumen": "Menor retroceso y mejor estabilidad, pero recarga muy lenta. Adecuada para control en disparos precisos.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Recarga muy lenta"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Culata fija",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-5 cm",
+            "retroceso_horizontal": "-4 cm",
+            "retroceso_vertical": "-2 cm",
+            "precision_dispersion": "-9 cm",
+            "recuperacion_retroceso": "-25 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+33 ms",
+            "velocidad_equipado": "+52 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "Culata fija para la pistola O8. Mejora significativamente la precisión de dispersión y reduce el retroceso horizontal y vertical, además de disminuir ligeramente el tiempo de recuperación del retroceso, pero reduce notablemente la velocidad al apuntar y al esprintar, y ralentiza el apuntado y el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión y el control son prioritarios, a pesar de la penalización en la movilidad general.",
+        "resumen": "Precisión y retroceso horizontal mejorados, pero movimiento muy lento. Óptima para disparos precisos en mapas amplios.",
+        "pros": [
+          "Aumenta la precisión de la dispersión, reduce el retroceso horizontal"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Ligera 712S",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-8 cm",
+            "retroceso_vertical": "-6 cm",
+            "precision_dispersion": "+8 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_equipado": "+25 ms"
+          }
+        },
+        "descripcion_tecnica": "Culata ligera 712S para la pistola O8. Mejora la estabilidad al apuntar y reduce el retroceso vertical, además de disminuir el tiempo de recuperación del retroceso y aumentar ligeramente la velocidad de equipado, pero reduce la precisión de dispersión. Puede ser útil en mapas de cualquier tamaño para mejorar la estabilidad y el control vertical durante el disparo, aunque la menor precisión puede ser un inconveniente a larga distancia.",
+        "resumen": "Mejor estabilidad y menor retroceso vertical, pero menor precisión. Adecuada para control en ráfagas cortas en cualquier mapa.",
+        "pros": [
+          "Reduce el retroceso vertical, mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Culata",
+        "tipo": "Táctica roble",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-3 cm",
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-6 cm",
+            "precision_dispersion": "-9 cm",
+            "recuperacion_retroceso": "-50 ms"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+33 ms",
+            "velocidad_equipado": "+66 ms",
+            "velocidad_sprintar": "-15%",
+            "velocidad_al_apuntar": "-57%"
+          }
+        },
+        "descripcion_tecnica": "Culata táctica de roble para la pistola O8. Mejora significativamente la estabilidad al apuntar, reduce el retroceso horizontal y vertical, incrementa la precisión de dispersión y disminuye el tiempo de recuperación del retroceso, pero reduce notablemente la velocidad al apuntar y al esprintar, además de ralentizar el apuntado y el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión y el control son prioritarios, a pesar de la penalización en la movilidad.",
+        "resumen": "Control muy mejorado, pero movimiento significativamente más lento. Óptima para precisión estática en mapas amplios.",
+        "pros": [
+          "Muy fácil de controlar"
+        ],
+        "contras": [
+          "Ralentiza el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Empuñadura trasera estándar para la pistola O8. No altera las estadísticas base del arma. Proporciona el agarre predeterminado del arma. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas en el manejo.",
+        "resumen": "Empuñadura predeterminada sin modificaciones. Manejo estándar para cualquier situación.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.26 s"
+          },
+          "control": {
+            "precision_dispersion": "+4 cm"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de cuero para carga rápida de la pistola O8. Disminuye notablemente el tiempo de recarga, pero incrementa la dispersión de los disparos. Favorece el combate dinámico en mapas pequeños y medianos donde recargar rápidamente es crucial, aunque la menor precisión puede ser un inconveniente a larga distancia.",
+        "resumen": "Recarga veloz a costa de menor precisión. Ideal para combates cercanos y mapas ágiles.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+66 ms",
+            "velocidad_al_apuntar": "+50%"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera con cinta de precisión X3 para la pistola O8. Aumenta significativamente la velocidad de movimiento al apuntar, pero ralentiza la velocidad de equipado del arma. Útil en mapas de cualquier tamaño para realizar ajustes de puntería rápidos mientras se mantiene la movilidad, aunque el equipamiento lento puede ser un problema en enfrentamientos repentinos.",
+        "resumen": "Movimiento al apuntar más rápido, pero equipamiento lento. Adecuada para ajustes precisos en cualquier mapa.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+26 ms",
+            "velocidad_equipado": "+66 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-43%"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera con cinta de precisión X6 para la pistola O8. Mejora la estabilidad al apuntar, pero reduce significativamente la velocidad al apuntar y al esprintar, además de ralentizar ligeramente el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión estática es prioritaria, a pesar de la penalización en la movilidad general.",
+        "resumen": "Mayor estabilidad al apuntar, pero movimiento muy lento. Óptima para precisión estática en mapas amplios.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-25 ms",
+            "velocidad_equipado": "-99 ms"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de desenfundado rápido para la pistola O8. Aumenta significativamente la velocidad de apuntado y de equipado, pero reduce ligeramente la estabilidad al apuntar. Ideal para combates a corta y media distancia en mapas pequeños y medianos donde la rapidez de reacción es crucial, a pesar de una ligera pérdida de estabilidad al apuntar.",
+        "resumen": "Apuntado y equipado muy rápidos, pero menor estabilidad. Excelente para reacciones rápidas en mapas cerrados.",
+        "pros": [
+          "Apuntado muy rápido, Equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Receptor estándar para la pistola O8. No altera las estadísticas base del arma. Proporciona el funcionamiento predeterminado del arma. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en el manejo y las características del arma.",
+        "resumen": "Receptor predeterminado sin alteraciones. Funcionamiento estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm",
+            "retroceso_vertical": "+5 cm",
+            "precision_dispersion": "+11 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "Receptor de alta velocidad reforzado para la pistola O8. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical, la dispersión y el tiempo de recuperación del retroceso. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso y menor precisión dificultan los disparos rápidos y precisos.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más retroceso y dispersión. Útil en mapas amplios para impacto a costa de precisión.",
+        "pros": [
+          "Aumenta el daño, reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso, reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+66 bpm",
+            "tiempo_recarga": "-0.18 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+2 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor con cerrojo aligerado para la pistola O8. Aumenta la cadencia de fuego y reduce ligeramente el tiempo de recarga, pero incrementa el retroceso horizontal. Favorece el combate a corta y media distancia en mapas pequeños y medianos donde una mayor velocidad de disparo es ventajosa, aunque el mayor retroceso horizontal requiere un mayor control al disparar ráfagas.",
+        "resumen": "Cadencia de fuego más rápida, pero con mayor retroceso horizontal. Ideal para combates cercanos y mapas ágiles.",
+        "pros": [
+          "Cadencia de fuego rápido"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-110 bpm",
+            "tiempo_recarga": "+0.35 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-3 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor con cerrojo pesado para la pistola O8. Reduce el retroceso horizontal y vertical, pero disminuye significativamente la cadencia de fuego y aumenta ligeramente el tiempo de recarga. Más adecuado para enfrentamientos a medio alcance en mapas de cualquier tamaño donde la precisión en disparos individuales es prioritaria, a pesar de la menor velocidad de disparo.",
+        "resumen": "Menor retroceso, pero cadencia de fuego mucho más lenta. Óptimo para disparos precisos y controlados.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Convertidor de la Armada de 9 mm",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-90 m/s",
+            "daño": "+25 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+4 cm",
+            "retroceso_vertical": "+6 cm",
+            "precision_dispersion": "+11 cm",
+            "recuperacion_retroceso": "+100 ms"
+          }
+        },
+        "descripcion_tecnica": "Receptor convertidor de la Armada de 9 mm para la pistola O8. Aumenta notablemente el daño, pero reduce la velocidad de salida e incrementa el retroceso horizontal y vertical, la dispersión y el tiempo de recuperación del retroceso. Puede ser útil en mapas pequeños y medianos donde se busca un mayor impacto por disparo, aunque el aumento del retroceso y la menor precisión dificultan los disparos rápidos y a larga distancia.",
+        "resumen": "Daño significativamente mayor, pero con más retroceso y menor precisión. Útil en mapas cerrados para un mayor impacto.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "Aumenta el retroceso, reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-4 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor de precisión para la pistola O8. Mejora la precisión de dispersión de los disparos, pero reduce la velocidad de salida del proyectil, lo que resulta en una mayor caída de bala a larga distancia. Adecuado para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde la exactitud es prioritaria, aunque la trayectoria menos tensa puede ser un inconveniente en disparos lejanos.",
+        "resumen": "Mayor precisión, pero menor velocidad y más caída del proyectil. Útil en mapas cerrados priorizando la exactitud.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 22:55:37"
+    }
+  },
+  {
+    "weapon": {
+      "name": "Revólver MK. IV",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "40 m",
+          "velocidad_salida": "290 m/s",
+          "daño": "127 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "110 bpm",
+          "tiempo_recarga": "4.10 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "25 cm",
+          "retroceso_horizontal": "23 cm",
+          "retroceso_vertical": "25 cm",
+          "precision_dispersion": "82 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "286 ms",
+          "velocidad_equipado": "595 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "75 m",
+          "zoom": "x1",
+          "capacidad_cargador": "6 balas"
+        }
+      },
+      "pros": [
+        "Daño muy alto"
+      ],
+      "contras": [
+        "Ruidosa"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "Munición perforante para el revólver MK. IV. No altera las estadísticas base del arma. Permite penetrar coberturas duras como piedra y metal, pero genera un rastro de bala muy visible. Adecuada en mapas de cualquier tamaño donde la penetración sea crucial, aunque la visibilidad puede ser un inconveniente en enfrentamientos sigilosos.",
+        "resumen": "Penetra coberturas duras, pero deja rastro visible. Útil en cualquier mapa si la penetración es prioritaria.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-58 m/s",
+            "daño": "+76 PS"
+          }
+        },
+        "descripcion_tecnica": "Munición de punta blanda para el revólver MK. IV. Reduce la velocidad de salida pero incrementa significativamente el daño. Incapaz de perforar cascos o madera. Ideal para mapas pequeños y medianos donde el daño inmediato es más importante que la penetración. Su inconveniente es la falta de capacidad de penetración.",
+        "resumen": "Mayor daño a costa de menor velocidad y penetración. Óptima en mapas cerrados donde el daño prima.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+16 m",
+            "velocidad_salida": "+116 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+11 m"
+          }
+        },
+        "descripcion_tecnica": "Munición de competición para el revólver MK. IV. Aumenta el alcance efectivo y la velocidad de salida, reduciendo la caída del proyectil. Su principal desventaja es el incremento notable en la distancia de audición. Adecuada para mapas medianos y grandes donde el alcance es importante, aunque su ruido compromete el sigilo.",
+        "resumen": "Mayor alcance y menor caída, pero muy ruidosa. Útil en mapas amplios priorizando el alcance.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-87 m/s",
+            "daño": "-39 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-30 m"
+          }
+        },
+        "descripcion_tecnica": "Munición subsónica para el revólver MK. IV. Reduce significativamente el daño y la velocidad de salida, incrementando la caída del proyectil. Su mayor ventaja es la notable reducción en la distancia de audición. Más adecuada para mapas pequeños donde el sigilo es primordial, a pesar de su bajo daño y trayectoria menos precisa.",
+        "resumen": "Muy silenciosa, pero con daño reducido y mayor caída. Ideal para sigilo en mapas pequeños.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cargador estándar para el revólver MK. IV. No modifica las estadísticas base del arma. Proporciona la capacidad de munición predeterminada del revólver. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas.",
+        "resumen": "Cargador predeterminado sin alteraciones. Rendimiento equilibrado para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Munición de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+14 PS"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-28 bpm",
+            "tiempo_recarga": "+1.37 s"
+          },
+          "control": {
+            "precision_dispersion": "+9 cm",
+            "recuperacion_retroceso": "+62 ms"
+          }
+        },
+        "descripcion_tecnica": "Cargador con munición de alta velocidad para el revólver MK. IV. Incrementa la velocidad de salida y el daño, pero reduce la cadencia de fuego y aumenta el tiempo de recarga, la dispersión y la recuperación del retroceso. Puede ser útil en mapas medianos y grandes donde se prioriza el impacto por disparo, aunque la menor cadencia limita el enfrentamiento a corta distancia.",
+        "resumen": "Mayor daño y velocidad, pero menor cadencia y precisión. Útil en mapas amplios para disparos potentes.",
+        "pros": [
+          "Aumenta el daño"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Empuñadura trasera estándar para el revólver MK. IV. No altera las estadísticas base del arma. Proporciona el agarre predeterminado del revólver. Su rendimiento es neutro y adecuado para todo tipo de mapas y situaciones al no ofrecer ventajas ni desventajas específicas en el manejo.",
+        "resumen": "Empuñadura predeterminada sin modificaciones. Manejo estándar para cualquier situación.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.53 s"
+          },
+          "control": {
+            "precision_dispersion": "+13 cm"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de cuero para carga rápida del revólver MK. IV. Disminuye notablemente el tiempo de recarga, pero incrementa la dispersión de los disparos. Favorece el combate dinámico en mapas pequeños y medianos donde recargar rápido es crucial, aunque la menor precisión puede ser un inconveniente a larga distancia.",
+        "resumen": "Recarga veloz a costa de menor precisión. Ideal para combates cercanos y mapas ágiles.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+66 ms",
+            "velocidad_al_apuntar": "+50%"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera con cinta de precisión X3 para el revólver MK. IV. Aumenta significativamente la velocidad de movimiento al apuntar, pero ralentiza la velocidad de equipado del arma. Útil en mapas de cualquier tamaño para realizar ajustes de puntería rápidos, aunque el equipamiento lento puede ser un problema en enfrentamientos repentinos.",
+        "resumen": "Movimiento al apuntar más rápido, pero equipamiento lento. Adecuada para ajustes precisos en cualquier mapa.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+71 ms",
+            "velocidad_equipado": "+66 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-43%"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera con cinta de precisión X6 para el revólver MK. IV. Mejora la estabilidad al apuntar, pero reduce significativamente la velocidad al apuntar y al esprintar, además de ralentizar ligeramente el equipamiento. Más adecuada para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión estática es prioritaria, a pesar de la penalización en la movilidad general.",
+        "resumen": "Mayor estabilidad al apuntar, pero movimiento muy lento. Óptima para precisión estática en mapas amplios.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-48 ms",
+            "velocidad_equipado": "-99 ms"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura trasera de desenfundado rápido para el revólver MK. IV. Aumenta significativamente la velocidad de apuntado y de equipado, pero reduce ligeramente la estabilidad al apuntar. Ideal para combates a corta y media distancia en mapas pequeños y medianos donde la rapidez de reacción es crucial, a pesar de una ligera pérdida de estabilidad.",
+        "resumen": "Apuntado y equipado muy rápidos, pero menor estabilidad. Excelente para reacciones rápidas en mapas cerrados.",
+        "pros": [
+          "Apuntado muy rápido, Equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Receptor estándar para el revólver MK. IV. No altera las estadísticas base del arma. Proporciona el funcionamiento predeterminado del revólver. Su rendimiento es equilibrado y adecuado para todo tipo de mapas y situaciones al no presentar ventajas ni desventajas específicas en el manejo y las características del arma.",
+        "resumen": "Receptor predeterminado sin alteraciones. Funcionamiento estándar para cualquier escenario.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+5 cm",
+            "retroceso_vertical": "+7 cm",
+            "precision_dispersion": "+29 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "Receptor de alta velocidad reforzado para el revólver MK. IV. Aumenta la velocidad de salida y el daño, reduciendo la caída del proyectil, pero incrementa el retroceso horizontal y vertical, la dispersión y el tiempo de recuperación del retroceso. Puede ser útil en mapas medianos y grandes para aumentar el impacto y el alcance, aunque el mayor retroceso y menor precisión dificultan los disparos rápidos y precisos.",
+        "resumen": "Mayor daño y velocidad con menor caída, pero más retroceso y dispersión. Útil en mapas amplios para impacto a costa de precisión.",
+        "pros": [
+          "Aumenta el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso, Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+16 bpm",
+            "tiempo_recarga": "-0.37 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+5 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor con cerrojo aligerado para el revólver MK. IV. Aumenta la cadencia de fuego y reduce el tiempo de recarga, pero incrementa el retroceso horizontal. Favorece el combate a corta y media distancia en mapas pequeños y medianos donde una mayor velocidad de disparo es ventajosa, aunque el mayor retroceso horizontal requiere un mayor control al disparar ráfagas.",
+        "resumen": "Cadencia de fuego y recarga más rápidas, pero mayor retroceso horizontal. Ideal para combates cercanos y mapas ágiles.",
+        "pros": [
+          "Cadencia de fuego rápida"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-28 bpm",
+            "tiempo_recarga": "+0.72 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-5 cm",
+            "retroceso_vertical": "-5 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor con cerrojo pesado para el revólver MK. IV. Reduce el retroceso horizontal y vertical, pero disminuye la cadencia de fuego y aumenta el tiempo de recarga. Más adecuado para enfrentamientos a medio y largo alcance en mapas grandes donde la precisión en disparos individuales es prioritaria, a pesar de la menor cadencia de disparo.",
+        "resumen": "Menor retroceso, pero cadencia de fuego más lenta. Óptimo para disparos precisos en mapas amplios.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-10 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor de precisión para el revólver MK. IV. Mejora la precisión de dispersión de los disparos, pero reduce la velocidad de salida del proyectil, lo que implica una mayor caída de bala a larga distancia. Adecuado para enfrentamientos a corta y media distancia en mapas pequeños y medianos donde la precisión es clave, aunque la caída del proyectil puede ser un inconveniente en disparos lejanos.",
+        "resumen": "Mayor precisión de disparo, pero menor velocidad y más caída. Útil en mapas cerrados priorizando la exactitud.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 23:05:00"
+    }
+  },
+  {
+    "weapon": {
+      "name": "Type 14 Nambu",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "60 m",
+          "velocidad_salida": "380 m/s",
+          "daño": "39 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "430 bpm",
+          "tiempo_recarga": "1.80 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "14 cm",
+          "retroceso_horizontal": "6 cm",
+          "retroceso_vertical": "9 cm",
+          "precision_dispersion": "32 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "89 ms",
+          "velocidad_equipado": "521 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_apuntar": "162%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "65 m",
+          "zoom": "x1",
+          "capacidad_cargador": "8 balas"
+        }
+      },
+      "pros": [
+        "Semiautomática",
+        "Gran Velocidad de movimiento"
+      ],
+      "contras": [
+        "Daño muy bajo"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "Capaz de penetrar coberturas duras como piedra y metal, útil en mapas con muchos obstáculos. Su principal inconveniente es la alta visibilidad de la trayectoria de la bala. Adecuada para cualquier tamaño de mapa.",
+        "resumen": "Capaz de penetrar coberturas duras como piedra y metal, útil en mapas con muchos obstáculos. Su principal inconveniente es la alta visibilidad de la trayectoria de la bala. Adecuada para cualquier tamaño de mapa.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-76 m/s",
+            "daño": "+23 PS"
+          }
+        },
+        "descripcion_tecnica": "Incrementa significativamente el daño a costa de menor velocidad de salida. Ineficaz contra cascos y madera, limitando su utilidad en ciertos escenarios. Más adecuada para enfrentamientos directos en mapas pequeños o medianos.",
+        "resumen": "Incrementa significativamente el daño a costa de menor velocidad de salida. Ineficaz contra cascos y madera, limitando su utilidad en ciertos escenarios. Más adecuada para enfrentamientos directos en mapas pequeños o medianos.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+24 m",
+            "velocidad_salida": "+152 m/s"
+          }
+        },
+        "descripcion_tecnica": "Mejora el alcance efectivo y reduce la caída del proyectil gracias a su mayor velocidad de salida. Su elevado ruido la hace poco recomendable para el sigilo. Versátil para mapas de cualquier tamaño, priorizando el alcance.",
+        "resumen": "Mejora el alcance efectivo y reduce la caída del proyectil gracias a su mayor velocidad de salida. Su elevado ruido la hace poco recomendable para el sigilo. Versátil para mapas de cualquier tamaño, priorizando el alcance.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-114 m/s",
+            "daño": "-12 PS"
+          }
+        },
+        "descripcion_tecnica": "Prioriza el sigilo al ser notablemente silenciosa. Sufre una gran reducción de daño y una mayor caída del proyectil. Ideal para mapas grandes donde el posicionamiento sigiloso es clave, pero requiere disparos más precisos.",
+        "resumen": "Prioriza el sigilo al ser notablemente silenciosa. Sufre una gran reducción de daño y una mayor caída del proyectil. Ideal para mapas grandes donde el posicionamiento sigiloso es clave, pero requiere disparos más precisos.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Cañón",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Cañón sin modificaciones que conserva las estadísticas originales del arma. Ofrece un rendimiento neutro en alcance, precisión y manejo.",
+        "resumen": "Mantiene el equilibrio base del arma. Sin ventajas ni desventajas.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Cañon estriado de la OSS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-5 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón que disminuye la velocidad de salida en 60 m/s, pero reduce la dispersión en 5 cm, mejorando la precisión.",
+        "resumen": "Mayor precisión a costa de menor velocidad. Aumenta la caída del proyectil.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Cañón",
+        "tipo": "Potencia de alta velocidad",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+50 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm",
+            "retroceso_vertical": "+3 cm",
+            "precision_dispersion": "+12 cm"
+          }
+        },
+        "descripcion_tecnica": "Cañón que aumenta la velocidad de salida en 50 m/s y el daño en 12 PS. Incrementa el retroceso horizontal en 1 cm, el vertical en 3 cm y la dispersión en 12 cm.",
+        "resumen": "Mayor daño y menor caída. Control más difícil por aumento del retroceso.",
+        "pros": [
+          "Aumenta el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Difícil de controlar"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Ninguna",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Bocacha estándar sin modificaciones. Mantiene inalteradas las características base del arma.",
+        "resumen": "Bocacha por defecto. No ofrece ventajas ni desventajas.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Freno antirretroceso MK.2",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "-2 cm",
+            "retroceso_vertical": "-3 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+7 ms",
+            "velocidad_al_apuntar": "-16%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+9 m"
+          }
+        },
+        "descripcion_tecnica": "Freno de boca que reduce el retroceso horizontal en 2 cm y el vertical en 3 cm, pero incrementa el tiempo de apuntado en 7 ms y reduce la velocidad al apuntar en un 16%. Aumenta la distancia de audición en 9 m.",
+        "resumen": "Menor retroceso a costa de apuntado más lento y mayor ruido.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "MK.2 con silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-37 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador que reduce la distancia de audición en 37 m, pero incrementa el retroceso horizontal en 2 cm y el tiempo de apuntado en 12 ms.",
+        "resumen": "Silencioso pero penaliza el apuntado y aumenta el retroceso horizontal.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador de las SS",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+5 cm",
+            "retroceso_horizontal": "+1 cm",
+            "retroceso_vertical": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms",
+            "velocidad_al_apuntar": "-32%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-40 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador que reduce la distancia de audición en 40 m, pero disminuye la estabilidad al apuntar en 5 cm, e incrementa el retroceso horizontal en 1 cm y el vertical en 2 cm. Aumenta el tiempo de apuntado en 12 ms y reduce la velocidad al apuntar en un 32%.",
+        "resumen": "Muy silencioso pero empeora la estabilidad y aumenta el retroceso.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Aumenta el retroceso"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Foxley",
+        "modificaciones": {
+          "control": {
+            "retroceso_horizontal": "+2 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+10 ms"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-32 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador que reduce la distancia de audición en 32 m, pero incrementa el retroceso horizontal en 2 cm y el tiempo de apuntado en 10 ms.",
+        "resumen": "Muy silencioso, pero penaliza la velocidad de apuntado y aumenta el retroceso horizontal.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Apuntado muy lento, aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador M-27 modificado",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-90 m/s"
+          },
+          "control": {
+            "estabilidad_apuntar": "+5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+12 ms",
+            "velocidad_equipado": "+57 ms",
+            "velocidad_al_apuntar": "-24%"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-39 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador que reduce la distancia de audición en 39 m y la velocidad de salida en 90 m/s, pero mejora la estabilidad al apuntar en 5 cm. Incrementa el tiempo de apuntado en 12 ms y el tiempo de equipado en 57 ms, además de reducir la velocidad al apuntar en un 24%.",
+        "resumen": "Muy silencioso, pero disminuye la velocidad del proyectil y la estabilidad al apuntar.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar, aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Silenciador Maxin 30",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-80 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-43 bpm"
+          },
+          "otras funciones": {
+            "distancia_audicion": "-29 m"
+          }
+        },
+        "descripcion_tecnica": "Silenciador que reduce la distancia de audición en 29 m y la velocidad de salida en 80 m/s, además de disminuir la cadencia de fuego en 43 balas por minuto.",
+        "resumen": "Muy silencioso, pero reduce la velocidad del proyectil y la cadencia de disparo.",
+        "pros": [
+          "Muy silenciosa"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Supresor de las SS",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+60 m/s",
+            "daño": "+3 PS"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+86 bpm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+7 ms",
+            "velocidad_equipado": "+57 ms"
+          }
+        },
+        "descripcion_tecnica": "Supresor que incrementa la velocidad de salida en 60 m/s, el daño en 3 PS y la cadencia de fuego en 86 balas por minuto. Aumenta el tiempo de apuntado en 7 ms y el tiempo de equipado en 57 ms.",
+        "resumen": "Mayor velocidad, daño y cadencia, pero penaliza la velocidad de apuntado y equipado.",
+        "pros": [
+          "Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Apuntado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Empuñadura trasera estándar sin modificaciones. Mantiene las características base del arma sin alteraciones.",
+        "resumen": "Empuñadura por defecto. No ofrece ventajas ni desventajas.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.23 s"
+          },
+          "control": {
+            "precision_dispersion": "+5 cm"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura de cuero que reduce el tiempo de recarga en 0.23 segundos, pero incrementa la dispersión de los disparos en 5 cm.",
+        "resumen": "Recarga más rápida a costa de menor precisión.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+57 ms",
+            "velocidad_al_apuntar": "+57%"
+          }
+        },
+        "descripcion_tecnica": "Cinta de precisión que incrementa el tiempo de equipado en 57 ms y la velocidad al apuntar en un 57%.",
+        "resumen": "Mayor velocidad de movimiento al apuntar, pero equipamiento más lento.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+16 ms",
+            "velocidad_equipado": "+57 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_al_apuntar": "-48%"
+          }
+        },
+        "descripcion_tecnica": "Cinta de precisión que disminuye la estabilidad al apuntar en 5 cm, incrementa el tiempo de apuntado en 16 ms y el tiempo de equipado en 57 ms. Reduce la velocidad al esprintar en un 8% y la velocidad al apuntar en un 48%.",
+        "resumen": "Mayor estabilidad al apuntar, pero reduce significativamente la velocidad de movimiento.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-15 ms",
+            "velocidad_equipado": "-87 ms"
+          }
+        },
+        "descripcion_tecnica": "Empuñadura de desenfundado rápido que mejora la estabilidad al apuntar en 4 cm, reduce el tiempo de apuntado en 15 ms y el tiempo de equipado en 87 ms.",
+        "resumen": "Apuntado y equipado muy rápidos, pero disminuye ligeramente la estabilidad al apuntar.",
+        "pros": [
+          "Apuntado muy rápido, Equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "Receptor estándar sin modificaciones. Conserva las características base del arma sin introducir cambios.",
+        "resumen": "Receptor por defecto. No ofrece ventajas ni desventajas.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+12 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm",
+            "retroceso_vertical": "+3 cm",
+            "precision_dispersion": "+12 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "Receptor reforzado de alta velocidad que incrementa la velocidad de salida en 30 m/s y el daño en 12 PS. Aumenta el retroceso horizontal en 1 cm, el vertical en 3 cm, la dispersión en 12 cm y el tiempo de recuperación del retroceso en 38 ms.",
+        "resumen": "Mayor daño y menor caída del proyectil, pero incrementa el retroceso y reduce la precisión.",
+        "pros": [
+          "Aumenta el daño, Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso, reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+64 bpm",
+            "tiempo_recarga": "-0.16 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm"
+          }
+        },
+        "descripcion_tecnica": "Cerrojo aligerado que aumenta la cadencia de fuego en 64 balas por minuto y reduce el tiempo de recarga en 0.16 segundos. Incrementa el retroceso horizontal en 1 cm.",
+        "resumen": "Mayor cadencia de disparo y recarga más rápida, pero aumenta el retroceso horizontal.",
+        "pros": [
+          "Cadencia de fuego rápido"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-108 bpm",
+            "tiempo_recarga": "+0.32 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-1 cm",
+            "retroceso_vertical": "-2 cm"
+          }
+        },
+        "descripcion_tecnica": "Cerrojo pesado que disminuye la cadencia de fuego en 108 balas por minuto y aumenta el tiempo de recarga en 0.32 segundos. Reduce el retroceso horizontal en 1 cm y el vertical en 2 cm.",
+        "resumen": "Menor retroceso a costa de una cadencia de disparo más lenta y recarga más prolongada.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-4 cm"
+          }
+        },
+        "descripcion_tecnica": "Receptor de precisión que reduce la velocidad de salida en 60 m/s, pero disminuye la dispersión de los disparos en 4 cm.",
+        "resumen": "Mayor precisión a costa de menor velocidad del proyectil, lo que aumenta su caída.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 23:27:32"
+    }
+  },
+  {
+    "weapon": {
+      "name": "Welrod",
+      "type": "Pistolas",
+      "game": "Sniper Elite 5",
+      "stats": {
+        "potencia": {
+          "alcance_efectivo": "30 m",
+          "velocidad_salida": "250 m/s",
+          "daño": "65 PS"
+        },
+        "cadencia_fuego": {
+          "balas_por_minuto": "35 bpm",
+          "tiempo_recarga": "2.50 s"
+        },
+        "control": {
+          "estabilidad_apuntar": "17 cm",
+          "retroceso_horizontal": "4 cm",
+          "retroceso_vertical": "5 cm",
+          "precision_dispersion": "27 cm",
+          "recuperacion_retroceso": "250 ms"
+        },
+        "movilidad": {
+          "velocidad_apuntado": "96 ms",
+          "velocidad_equipado": "527 ms",
+          "velocidad_sprintar": "110%",
+          "velocidad_apuntar": "143%"
+        },
+        "otras_caracteristicas": {
+          "distancia_audicion": "12 m",
+          "zoom": "x1",
+          "capacidad_cargador": "8 balas"
+        }
+      },
+      "pros": [
+        "Disparos muy silenciosos"
+      ],
+      "contras": [
+        "Cerrojo muy lento"
+      ],
+      "municiones": {
+        "especial_1": [
+          "De competición",
+          "Perforante",
+          "Punta blanda"
+        ],
+        "especial_2": [
+          "De competición",
+          "Punta blanda",
+          "Subsónica"
+        ]
+      }
+    },
+    "tipos_balas": [
+      {
+        "type": "Perforante",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas conservan sus valores por defecto"
+        },
+        "descripcion_tecnica": "La configuración sin modificaciones mantiene las estadísticas base del arma Welrod. Conserva la capacidad de perforar piedra y metal, lo que la hace versátil en diversos escenarios. Su principal desventaja es el rastro de bala altamente visible, comprometiendo el sigilo en largas distancias.",
+        "resumen": "Configuración estándar con penetración en materiales duros, pero con un rastro de bala muy visible.",
+        "pros": [
+          "Perfora piedra y metal"
+        ],
+        "contras": [
+          "Deja un rastro de bala muy visible"
+        ]
+      },
+      {
+        "type": "Punta blanda",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-50 m/s",
+            "daño": "+39 PS"
+          }
+        },
+        "descripcion_tecnica": "La punta blanda reduce la velocidad de salida en 50 m/s pero incrementa el daño en 39 PS. Ideal para mapas pequeños debido a su menor alcance efectivo. Su principal inconveniente es la incapacidad para penetrar cascos y madera, limitando su utilidad en enfrentamientos directos o contra objetivos protegidos.",
+        "resumen": "Mayor daño a costa de menor velocidad y nula penetración en cascos o madera. Adecuada para corto alcance.",
+        "pros": [
+          "Aumenta el daño notablemente"
+        ],
+        "contras": [
+          "No se puede perforar cascos ni madera"
+        ]
+      },
+      {
+        "type": "De competición",
+        "modificaciones": {
+          "potencia": {
+            "alcance_efectivo": "+12 m",
+            "velocidad_salida": "+100 m/s"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+1 m"
+          }
+        },
+        "descripcion_tecnica": "La mira de competición incrementa el alcance efectivo en 12 m y la velocidad de salida en 100 m/s, reduciendo la caída de la bala. Esto la hace más eficaz en mapas medianos y grandes. Sin embargo, aumenta significativamente la distancia de audición en 1 metro, comprometiendo el sigilo.",
+        "resumen": "Mayor alcance y velocidad para disparos más rectos, ideal para distancias medias y largas, pero muy ruidosa.",
+        "pros": [
+          "Reduce notablemente la caída de proyectiles, aumenta el alcance efectivo"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "type": "Subsónica",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-75 m/s",
+            "daño": "-20 PS"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "-4 m"
+          }
+        },
+        "descripcion_tecnica": "La munición subsónica reduce la velocidad de salida en 75 m/s y el daño en 20 PS, pero disminuye la distancia de audición en 4 metros, haciéndola aún más silenciosa. Es adecuada para mapas pequeños donde el sigilo es primordial. Su bajo daño y la mayor caída de proyectiles son inconvenientes significativos.",
+        "resumen": "Extremadamente silenciosa pero con daño reducido y mayor caída de bala, ideal para sigilo en corto alcance.",
+        "pros": [
+          "Notablemente silenciosa"
+        ],
+        "contras": [
+          "Daño muy bajo, caída de proyectiles añadido"
+        ]
+      }
+    ],
+    "modificaciones": [
+      {
+        "componente": "Boca",
+        "tipo": "Deflectores estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "La configuración de boca con deflectores estándar mantiene las características base del arma Welrod sin modificaciones. Su rendimiento es equilibrado en alcance, daño y control, lo que la hace adaptable a mapas de diversos tamaños. No presenta ventajas ni desventajas inherentes más allá de las propias del arma base.",
+        "resumen": "Configuración predeterminada y equilibrada sin modificaciones en las estadísticas del arma.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Deflectores sólidos de sigilo",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-30 m/s"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "-3 bpm"
+          },
+          "control": {
+            "precision_dispersion": "+5 cm"
+          },
+          "otras_caracteristicas": {
+            "dist26": {
+              "distancia_audicion": "-4 m"
+            }
+          },
+          "descripcion_tecnica": "Los deflectores sólidos de sigilo reducen la velocidad de salida en 30 m/s y la cadencia de fuego en 3 bpm, pero mejoran notablemente el sigilo al disminuir la distancia de audición en 4 metros. Si bien es muy silenciosa, incrementa la dispersión de los disparos en 5 cm, afectando ligeramente la precisión. Es adecuada para mapas pequeños y medianos donde el sigilo es prioritario, a pesar de la menor precisión.",
+          "resumen": "Silenciosa pero con menor velocidad y cadencia, y una precisión ligeramente reducida. Ideal para sigilo en distancias cortas y medias.",
+          "pros": [
+            "Muy silenciosa"
+          ],
+          "contras": [
+            "Reduce la precisión de la dispersión"
+          ]
+        }
+      },
+      {
+        "componente": "Boca",
+        "tipo": "Extracción de deflectores",
+        "modificaciones": {
+          "potencia": {
+            "daño": "+20 PS"
+          },
+          "cadencia_fuego": {
+            "balas_por_minuto": "+4 bpm"
+          },
+          "control": {
+            "precision_dispersion": "-5 cm"
+          },
+          "otras_caracteristicas": {
+            "distancia_audicion": "+2 m"
+          }
+        },
+        "descripcion_tecnica": "La extracción de deflectores incrementa el daño en 20 PS y la cadencia de fuego en 4 bpm, además de mejorar la precisión de dispersión en 5 cm. Estas mejoras la hacen más efectiva en enfrentamientos directos en mapas pequeños y medianos. No obstante, aumenta la distancia de audición en 2 metros, comprometiendo el sigilo.",
+        "resumen": "Mayor daño, cadencia y precisión a costa de ser más ruidosa. Adecuada para combate directo en distancias cortas y medias.",
+        "pros": [
+          "Aumenta la precisión de la dispersión",
+          "Aumenta el daño"
+        ],
+        "contras": [
+          "Muy ruidosa"
+        ]
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El cargador estándar mantiene la capacidad de munición predeterminada del arma Welrod en cero balas. No introduce modificaciones en ninguna otra estadística. Su rendimiento se alinea con la configuración base del arma, siendo adaptable a diversas situaciones sin ofrecer ventajas o desventajas específicas en cuanto a la capacidad del cargador.",
+        "resumen": "Cargador predeterminado sin alteraciones en la capacidad de munición del arma.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Cargador",
+        "tipo": "Cargador ampliado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "+0.28 s"
+          },
+          "control": {
+            "estabilidad_apuntar": "+3 cm",
+            "retroceso_vertical": "+1 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+9 ms",
+            "velocidad_equipado": "+93 ms"
+          },
+          "otras_caracteristicas": {
+            "capacidad_cargador": "+3 balas"
+          }
+        },
+        "descripcion_tecnica": "El cargador ampliado incrementa la capacidad en 3 balas, pero también aumenta el tiempo de recarga en 0.28 s, reduce la estabilidad al apuntar en 3 cm, e incrementa el retroceso vertical en 1 cm. Además, ralentiza la velocidad de apuntado en 9 ms y la velocidad de equipado en 93 ms. Si bien ofrece una mayor capacidad de munición, compromete la velocidad de manejo y la estabilidad.",
+        "resumen": "Mayor capacidad de cargador con penalizaciones en velocidad de apuntado, equipado, estabilidad y retroceso vertical.",
+        "pros": [
+          "Cargador muy grande"
+        ],
+        "contras": [
+          "Apuntado muy lento",
+          "Aumenta el retroceso vertical"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "La empuñadura trasera estándar no introduce modificaciones en las estadísticas base del arma Welrod. Mantiene el comportamiento predeterminado en términos de control y manejo. Su rendimiento es neutro, sin ofrecer ventajas o desventajas específicas en el agarre del arma.",
+        "resumen": "Empuñadura predeterminada sin alteraciones en las estadísticas del arma.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Carga rápida de cuero",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "tiempo_recarga": "-0.33 s"
+          },
+          "control": {
+            "precision_dispersion": "+4 cm"
+          }
+        },
+        "descripcion_tecnica": "La empuñadura de carga rápida de cuero reduce el tiempo de recarga en 0.33 segundos, permitiendo recargas más veloces. Sin embargo, incrementa la precisión de dispersión en 4 cm, lo que puede resultar en una menor exactitud en los disparos. Es una opción favorable en mapas pequeños y medianos donde la velocidad de recarga es crucial, a pesar de la ligera pérdida de precisión.",
+        "resumen": "Recarga más rápida a costa de una menor precisión en la dispersión de los disparos.",
+        "pros": [
+          "Recarga muy rápida"
+        ],
+        "contras": [
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X3",
+        "modificaciones": {
+          "movilidad": {
+            "velocidad_equipado": "+59 ms",
+            "velocidad_apuntar": "+50%"
+          }
+        },
+        "descripcion_tecnica": "La cinta de precisión X3 incrementa la velocidad de movimiento al apuntar en un 50%, lo que facilita el seguimiento de objetivos en movimiento. No obstante, aumenta la velocidad de equipado en 59 ms, haciendo el cambio de arma más lento. Es útil en mapas de todos los tamaños para mantener la movilidad al apuntar, aunque la penalización en la velocidad de equipado debe considerarse.",
+        "resumen": "Mayor velocidad al apuntar pero con un equipado más lento. Útil para mantener la movilidad durante el apuntado.",
+        "pros": [
+          "Aumenta la velocidad de movimiento al apuntar"
+        ],
+        "contras": [
+          "Equipado muy lento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Cinta de precisión X6",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "-5 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "+17 ms",
+            "velocidad_equipado": "+59 ms",
+            "velocidad_sprintar": "-8%",
+            "velocidad_apuntar": "-43%"
+          }
+        },
+        "descripcion_tecnica": "La cinta de precisión X6 reduce la estabilidad al apuntar en 5 cm, pero incrementa la velocidad de apuntado en 17 ms y la velocidad de equipado en 59 ms. Sin embargo, disminuye significativamente la velocidad al esprintar en un 8% y la velocidad al apuntar en un 43%. Si bien mejora ligeramente la velocidad de apuntado y equipado, la penalización en la velocidad de movimiento general y al apuntar la hace menos favorable para mapas grandes o situaciones que requieran movilidad constante.",
+        "resumen": "Ligera mejora en la velocidad de apuntado y equipado con una penalización considerable en la velocidad de movimiento general y al apuntar.",
+        "pros": [
+          "Mejora la estabilidad al apuntar"
+        ],
+        "contras": [
+          "Ralentiza mucho el movimiento"
+        ]
+      },
+      {
+        "componente": "Empuñadura trasero",
+        "tipo": "Desenfundado rápido",
+        "modificaciones": {
+          "control": {
+            "estabilidad_apuntar": "+4 cm"
+          },
+          "movilidad": {
+            "velocidad_apuntado": "-16 ms",
+            "velocidad_equipado": "-88 ms"
+          }
+        },
+        "descripcion_tecnica": "La empuñadura de desenfundado rápido reduce la velocidad de apuntado en 16 ms y la velocidad de equipado en 88 ms, permitiendo un despliegue y apuntado del arma considerablemente más rápidos. No obstante, disminuye la estabilidad al apuntar en 4 cm. Es una elección ventajosa en mapas de ritmo rápido y encuentros cercanos donde la velocidad de reacción es crucial, a pesar de la menor estabilidad.",
+        "resumen": "Apuntado y equipado muy rápidos a costa de una menor estabilidad al apuntar. Ideal para combates cercanos y reacciones rápidas.",
+        "pros": [
+          "Apuntado muy rápido",
+          "Equipado muy rápido"
+        ],
+        "contras": [
+          "Reduce la estabilidad al apuntar"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Estándar",
+        "modificaciones": {
+          "sin_modificaciones": "Todas las estadísticas mantienen sus valores por defecto"
+        },
+        "descripcion_tecnica": "El receptor estándar no introduce cambios en las estadísticas base del arma Welrod. Mantiene el funcionamiento predeterminado del mecanismo del arma. Su rendimiento es neutro, sin ofrecer ventajas o desventajas específicas relacionadas con la cadencia o el manejo interno.",
+        "resumen": "Receptor predeterminado sin alteraciones en las estadísticas del arma.",
+        "pros": [],
+        "contras": []
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Alta velocidad reforzada",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "+30 m/s",
+            "daño": "+20 PS"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm",
+            "retroceso_vertical": "+1 cm",
+            "precision_dispersion": "+9 cm",
+            "recuperacion_retroceso": "+38 ms"
+          }
+        },
+        "descripcion_tecnica": "El receptor de alta velocidad reforzado incrementa la velocidad de salida en 30 m/s y el daño en 20 PS. Sin embargo, aumenta el retroceso horizontal y vertical en 1 cm, la precisión de dispersión en 9 cm y el tiempo de recuperación del retroceso en 38 ms. Si bien mejora la potencia y reduce la caída de la bala, compromete significativamente la precisión y el control del arma, haciéndola menos efectiva en disparos rápidos o a larga distancia.",
+        "resumen": "Mayor daño y velocidad de salida con penalizaciones notables en retroceso y precisión de dispersión.",
+        "pros": [
+          "Aumenta el daño",
+          "Reduce la caída de proyectiles"
+        ],
+        "contras": [
+          "Aumenta el retroceso",
+          "Reduce la precisión de la dispersión"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo aligerado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "+5 bpm",
+            "tiempo_recarga": "-0.23 s"
+          },
+          "control": {
+            "retroceso_horizontal": "+1 cm"
+          }
+        },
+        "descripcion_tecnica": "El cerrojo aligerado incrementa la cadencia de fuego en 5 bpm y reduce el tiempo de recarga en 0.23 segundos, permitiendo disparos más frecuentes y recargas más rápidas. No obstante, aumenta el retroceso horizontal en 1 cm, lo que puede dificultar mantener la puntería en ráfagas. Es una mejora útil en mapas pequeños y medianos donde la velocidad de disparo es ventajosa, a pesar del ligero aumento en el retroceso horizontal.",
+        "resumen": "Mayor cadencia de fuego y recarga más rápida con un ligero aumento en el retroceso horizontal.",
+        "pros": [
+          "Cadencia de fuego rápida"
+        ],
+        "contras": [
+          "Aumenta el retroceso horizontal"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Cerrojo pesado",
+        "modificaciones": {
+          "cadencia_fuego": {
+            "balas_por_minuto": "-9 bpm",
+            "tiempo_recarga": "+0.44 s"
+          },
+          "control": {
+            "retroceso_horizontal": "-1 cm",
+            "retroceso_vertical": "-1 cm"
+          }
+        },
+        "descripcion_tecnica": "El cerrojo pesado disminuye la cadencia de fuego en 9 bpm y aumenta el tiempo de recarga en 0.44 segundos. A cambio, reduce el retroceso horizontal y vertical en 1 cm cada uno, mejorando la estabilidad y el control al disparar. Es una opción adecuada para mapas grandes donde la precisión en disparos individuales es más importante que la velocidad de disparo, a pesar de la menor cadencia.",
+        "resumen": "Menor cadencia de fuego y recarga más lenta, pero con una reducción notable del retroceso horizontal y vertical.",
+        "pros": [
+          "Reduce el retroceso"
+        ],
+        "contras": [
+          "Cadencia de fuego lenta"
+        ]
+      },
+      {
+        "componente": "Receptor",
+        "tipo": "Receptor de precisión",
+        "modificaciones": {
+          "potencia": {
+            "velocidad_salida": "-60 m/s"
+          },
+          "control": {
+            "precision_dispersion": "-4 cm"
+          }
+        },
+        "descripcion_tecnica": "El receptor de precisión reduce la velocidad de salida en 60 m/s pero mejora la precisión de dispersión en 4 cm, resultando en disparos más exactos. Sin embargo, la menor velocidad de salida incrementa la caída del proyectil, lo que debe tenerse en cuenta en disparos a larga distancia. Es una buena opción para mapas medianos y grandes donde la precisión es clave, siempre que se compense la trayectoria balística.",
+        "resumen": "Mayor precisión de dispersión a costa de una menor velocidad de salida y mayor caída de proyectil.",
+        "pros": [
+          "Aumenta la precisión de la dispersión"
+        ],
+        "contras": [
+          "Aumenta la caída de proyectiles"
+        ]
+      }
+    ],
+    "metadata": {
+      "generated": "23/04/2025 23:38:13"
+    }
+  }
+]
